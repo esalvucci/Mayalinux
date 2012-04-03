@@ -11,7 +11,7 @@ case $risposta in
    1 )  cd matrix
 	source matrix.sh
 	;;
-   2 )  cd monkeyisland
+   2 )  cd monkey_island
 	source start.sh
 	;;
 
