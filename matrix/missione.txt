@@ -1,0 +1,10 @@
+Missione iniziata 
+Data corrente: mar 01/09/2009 
+Immettere nuova data: (gg/mm/aa) 
+Ora corrente: 18.25.29,18
+Immettere nuova ora: 
+Missione finita 
+Data corrente: mar 01/09/2009 
+Immettere nuova data: (gg/mm/aa) 
+Ora corrente: 19.13.14,34
+Immettere nuova ora: 
