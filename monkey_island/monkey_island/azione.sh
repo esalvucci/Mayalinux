@@ -25,4 +25,4 @@ read
 
 alias fogne="cd a/a/d/a/s/a/s/a/d/a/d/d/s/s/d/a"
 
-cd $monkey_island_dir/fogne
+cd $monkey_island_dir/labirinto
