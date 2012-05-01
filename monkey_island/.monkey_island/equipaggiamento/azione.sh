@@ -12,14 +12,13 @@ else
 
 
 echo 
-echo Dopo esserti equipaggiato con l\'oggetto che pensi ti sia utile prosgui la tua ricerca...
+echo Dopo esserti equipaggiato con l\'oggetto che pensi ti sia utile sei pronto per allenarti contro gli altri pirati...
 echo
 sleep 2
 echo
-echo ti sei addentrato nel quartier generale! 
 echo
 echo
-cd ../quartiere
+cd ../maestro_di_spada
 
 fi
 

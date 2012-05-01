@@ -16,12 +16,12 @@ cd ./mastro
 
 del()
 {
-cd ../matrice
-rm -r ../matrice/equipaggiamento/
-mkdir ../matrice/equipaggiamento
+cd ../equipaggiamento
+rm -r ../equipaggiamento/equipaggiamento/
+mkdir ../equipaggiamento/equipaggiamento
 }
 
-esplosivo()
+vanga()
 {
 echo
 echo Non hai il tempo per piazzare l\'esplosivo
@@ -35,7 +35,7 @@ echo
 del
 }
 
-giubbotto()
+mentine_per_alito()
 {
 echo
 echo Il giubbotto anti-proiettili ti ha salvato la vita, ma non ha
@@ -50,7 +50,7 @@ echo
 del
 }
 
-pistola()
+idolo_del_governatore()
 {
 echo
 echo Scarichi l\'intero caricatore della tua pistola sugli agenti
@@ -65,7 +65,7 @@ echo
 del
 }
 
-moto()
+boccale_di_grog()
 {
 echo
 echo La moto non si rivela molto utile, se non per fuggire
@@ -82,29 +82,29 @@ del
 equi()
 {
 
-if [ -e ../matrice/equipaggiamento/pistola ] ; then
-pistola
+if [ -e ../equipaggiamento/equipaggiamento/vanga ] ; then
+vanga
 fi
 
-if [ -e ../matrice/equipaggiamento/moto ] ; then
-moto
+if [ -e ../equipaggiamento/equipaggiamento/boccale_di_grog ] ; then
+boccale_di_grog
 fi
 
-if [ -e ../matrice/equipaggiamento/esplosivo ] ; then
-esplosivo
+if [ -e ../equipaggiamento/equipaggiamento/mentine_per_alito ] ; then
+mentine_per_alito
 fi
 
-if [ -e ../matrice/equipaggiamento/giubbotto ] ; then
-giubbotto
+if [ -e ../equipaggiamento/equipaggiamento/idolo_del_governatore ] ; then
+idolo_del_governatore
 fi
 
-if [ -e ../matrice/equipaggiamento/cellulare ] ; then
+if [ -e ../equipaggiamento/equipaggiamento/pollo ] ; then
 vabene
 fi
 
 }
 
-if [ -e ../matrice/equipaggiamento/pistola ]|| [ -e ../matrice/equipaggiamento/moto ] || [ -e ../matrice/equipaggiamento/cellulare ] || [ -e ../matrice/equipaggiamento/esplosivo ] || [ -e ../matrice/equipaggiamento/giubbotto ]; then 
+if [ -e ../equipaggiamento/equipaggiamento/idolo_del_governatore ]|| [ -e ../equipaggiamento/equipaggiamento/vanga ] || [ -e ../equipaggiamento/equipaggiamento/mentine_per_alito ] || [ -e ../equipaggiamento/equipaggiamento/boccale_di_grog ] || [ -e ../equipaggiamento/equipaggiamento/pollo ]; then 
 	
 equi
 
@@ -112,9 +112,9 @@ else
 
 echo
 	echo Attenzione, non ti sei equipaggiato!
-	echo Torna a scegliere l\'equipaggiamento più adatto...
-	rm -r ../matrice/equipaggiamento/*
-	cd ../matrice
+	echo Torna a scegliere l\'oggetto più adatto...
+	rm -r ../equipaggiamento/equipaggiamento/*
+	cd ../equipaggiamento
 
 fi
 

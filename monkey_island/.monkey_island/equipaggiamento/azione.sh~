@@ -1,12 +1,12 @@
 #!/bin/bash
 #set livello 3
 
-if [ ! -e ../matrice/equipaggiamento/pistola ] && [ ! -e ../matrice/equipaggiamento/moto ] && [ ! -e ../matrice/equipaggiamento/cellulare ] && [ ! -e ../matrice/equipaggiamento/esplosivo ] && [ ! -e ../matrice/equipaggiamento/giubbotto ]; then 
+if [ ! -e ../equipaggiamento/equipaggiamento/mentine_per_alito ] && [ ! -e ../equipaggiamento/equipaggiamento/boccale_di_grog ] && [ ! -e ../equipaggiamento/equipaggiamento/idolo_del_governatore ] && [ ! -e ../equipaggiamento/equipaggiamento/pollo ] && [ ! -e ../equipaggiamento/equipaggiamento/vanga ]; then 
 
 	echo
 	echo Attenzione, non ti sei equipaggiato!
 	echo Torna a scegliere l\'equipaggiamento più adatto...
-	cd ../matrice
+	cd ../equipaggiamento
 
 else
 
