@@ -14,7 +14,7 @@
 |                                                                              |
 |    -- quando incontri dei file TXT dovrai leggerli con il comando            |
 |                              "cat <nome_file>.txt"                           |
-|      segui le istruzioni prima di eseguire "azione.sh"                       |
+|      segui le istruzioni prima di eseguire "source azione.sh"                |
 |                                                                              |
 |                                                                              |
 |    -- per uscire dal gioco usa il comando "exit"                             | 
