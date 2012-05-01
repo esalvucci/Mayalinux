@@ -1,19 +1,20 @@
-_____________________________________________________________________________________
-|                                                                                    |
-|                                                                                    |
-|	Dopo ore e ore trascorse a girovagare alla cieca dentro alla boscaglia,      |
-|	      	sei finalmente riuscito a trovare la via d'uscita!                   |
-|                                                                                    |
-|                                                                                    | 
-|		   Al bar Scumm incontri i pirati della citt/à,                      |
-|         i loro capi ti assegnano delle prove per diventare un pirata.              |
-|                                                                                    |
-|	         La prima di queste è imparare l'arte della spada.                   |
-|  Per dimostrare ai pirati che sai maneggiare una lama appuntita come loro 	     |
-|            devi vincere la sfida contro il Maestro della Spada.                    |
-|                                                                                    |
-|                                                                                    |
-|    Prima di iniziare gli allenamenti però ti serve un equipaggiamento adatto:      |
-| scegli l'arma che ritieni più opportuna per allenarti contro i pirati dell'isola!  |
-|                                                                                    |
-|____________________________________________________________________________________|
+______________________________________________________________________________
+|                                                                             |
+|                                                                             |
+|  Dopo ore e ore trascorse a girovagare alla cieca dentro alla boscaglia,    |
+|            sei finalmente riuscito a trovare la via d'uscita!               |
+|                                                                             |
+|                                                                             | 
+|		Al bar Scumm incontri i pirati della citt/à,                  |
+|       i loro capi ti assegnano delle prove per diventare un pirata.         |
+|                                                                             |
+|	    La prima di queste è imparare l'arte della spada.                 |
+|         Per dimostrare ai pirati che sai maneggiare una lama                |
+|  appuntita come loro devi vincere la sfida contro il Maestro della Spada.   |                                   
+|                                                                             |
+|                                                                             |
+| Prima di iniziare gli allenamenti però ti serve un equipaggiamento adatto:  |
+|                  scegli l'arma che ritieni più opportuna                    |
+|	          per allenarti contro i pirati dell'isola!                   |
+|                                                                             |
+|_____________________________________________________________________________|
