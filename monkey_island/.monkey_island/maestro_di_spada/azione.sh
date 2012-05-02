@@ -50,8 +50,8 @@ del
 idolo_del_governatore()
 {
 echo
-echo L\'idolo è troppo pesante e troppo prezioso per utilizzarlo come arma
-echo 'in un combattimento'
+echo L\'idolo è troppo pesante e troppo prezioso per essere utilizzato
+echo 'come arma in un combattimento'
 echo
 echo I pirati sono troppo più agili di te con le loro spade.
 echo Scegli un equipaggiamento migliore!
@@ -67,7 +67,7 @@ echo Con un bicchiere di Grog i pirati diventano molto pi\ù abili
 echo con la spada, ma tu non sei ancora abituato a quel sapore
 echo disgustoso!
 echo 
-echo Per questo non riesci a vincere neanche un duello con i pirati
+echo Per questo non riesci a vincere neanche un duello.
 echo
 echo Scegli un equipaggiamento migliore!
 echo

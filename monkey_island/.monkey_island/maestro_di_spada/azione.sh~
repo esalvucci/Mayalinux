@@ -3,12 +3,11 @@
 vabene()
 {
 echo
-echo Sei salvo !
-echo Grazie al cellulare l\'operatore riesce a guidarti in un nascondiglio sicuro,
-echo gli Agenti non ti hanno preso.
+echo Ottimo!
+echo Grazie al pollo riesci a vincere, a suon di insulti, il duello contro Carla, il Maestro di Spada.
+echo 
 echo
-echo Hai eluso la sorveglianza all\'ingresso ed ora ti puoi addentrare nel forte 
-echo alla ricerca della cella dove viene tenuto l\'equipaggio della Vigilant.
+echo Sei pronto per la seconda prova: entrare nella casa del governatore e saccheggiarla!
 echo Buona fortuna !
 echo
 cd ./mastro
@@ -24,13 +23,12 @@ mkdir ../equipaggiamento/equipaggiamento
 vanga()
 {
 echo
-echo Non hai il tempo per piazzare l\'esplosivo
+echo La vanga è troppo pesante per maneggiarla con agilità
 echo
-echo Non avendo altre possibilita sei costretto alla fuga.
-echo Gli Agenti ti inseguono fino a che non riesci a trovare
-echo una vecchia uscita da Matrix e portarti cosi in salvo.
+echo In ogni duello vieni sconfitto dai pirati
 echo
-echo Devi rientrare in Matrix.
+echo
+echo Scegli un equipaggiamento migliore!
 echo
 del
 }
@@ -38,14 +36,13 @@ del
 mentine_per_alito()
 {
 echo
-echo Il giubbotto anti-proiettili ti ha salvato la vita, ma non ha
-echo sconfitto gli Agenti
+echo I pirati hanno veramente un alito terribile!
+echo 
 echo
-echo Non avendo altre possibilita sei costretto alla fuga.
-echo Gli Agenti ti inseguono fino a che non riesci a trovare
-echo una vecchia uscita da Matrix e portarti cosi in salvo.
+echo Con le mentine però non riesci a vincere alcun duello con i pirati!
+echo non è esattamente l\'arma che ti serve...
+echo Scegli un equipaggiamento migliore!
 echo
-echo Devi rientrare in Matrix.
 echo
 del
 }
@@ -53,14 +50,12 @@ del
 idolo_del_governatore()
 {
 echo
-echo Scarichi l\'intero caricatore della tua pistola sugli agenti
-echo ma non serve a nulla, sono troppo veloci, schivano tutte le pallottole
+echo L\'idolo è troppo pesante e troppo prezioso per utilizzarlo come arma
+echo 'in un combattimento'
 echo
-echo Non avendo altre possibilita sei costretto alla fuga.
-echo Gli Agenti ti inseguono fino a che non riesci a trovare
-echo una vecchia uscita da Matrix e portarti cosi in salvo.
+echo I pirati sono troppo più agili di te con le loro spade.
+echo Scegli un equipaggiamento migliore!
 echo
-echo Devi rientrare in Matrix.
 echo
 del
 }
@@ -68,13 +63,13 @@ del
 boccale_di_grog()
 {
 echo
-echo La moto non si rivela molto utile, se non per fuggire
+echo Con un bicchiere di Grog i pirati diventano molto pi\ù abili
+echo con la spada, ma tu non sei ancora abituato a quel sapore
+echo disgustoso!
+echo 
+echo Per questo non riesci a vincere neanche un duello.
 echo
-echo Non avendo altre possibilita sei costretto alla fuga.
-echo Gli Agenti ti inseguono fino a che non riesci a trovare
-echo una vecchia uscita da Matrix e portarti cosi in salvo.
-echo
-echo Devi rientrare in Matrix.
+echo Scegli un equipaggiamento migliore!
 echo
 del
 }
