@@ -10,7 +10,7 @@ echo
 echo Sei pronto per la seconda prova: entrare nella casa del governatore e saccheggiarla!
 echo Buona fortuna !
 echo
-cd ./mastro
+cd ./governatore
 }
 
 del()

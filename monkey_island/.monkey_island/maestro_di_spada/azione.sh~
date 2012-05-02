@@ -50,8 +50,8 @@ del
 idolo_del_governatore()
 {
 echo
-echo L\'idolo è troppo pesante e troppo prezioso per utilizzarlo come arma
-echo 'in un combattimento'
+echo L\'idolo è troppo pesante e troppo prezioso per essere utilizzato
+echo 'come arma in un combattimento'
 echo
 echo I pirati sono troppo più agili di te con le loro spade.
 echo Scegli un equipaggiamento migliore!
