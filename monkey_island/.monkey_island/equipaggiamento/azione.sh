@@ -18,7 +18,8 @@ sleep 2
 echo
 echo
 echo
-cd ../maestro_di_spada
+#cd ../maestro_di_spada
+source ../maestro_di_spada/azione.sh
 
 fi
 
