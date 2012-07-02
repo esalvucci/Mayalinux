@@ -6,7 +6,7 @@ ___________________________________________________________________________
 |		riesci ad entrare nel palazzo del governatore!             |
 |                                                                          |
 |                                                                          |
-|      Appena entrato, però, trovi ad aspettarti lo sceriffo Fester.       |
+|               Trovi però lo sceriffo Festerad aspettarti                 |
 |                                                                          |  
 |        Lo sceriffo non vedeva l'ora di cogliere un aspirante pirata      |
 |         con le mani nel sacco, ed è pronto a sbatterti in cella!         |
@@ -17,14 +17,14 @@ ___________________________________________________________________________
 |          Ti lascerò andare con il tuo bottino se risponderai             | 
 |                             a questo quesito:                            | 
 |                                                                          | 
-|         Qual e' quell'animale che da giovane ha quattro zampe,          | 
+|         Qual e' quell'animale che da giovane ha quattro zampe,           | 
 |                     da adulto due e da vecchio tre?"                     |                                                                            
 |                                                                          | 
 |                                                                          |
 |                                                                          |   
 |      (per rispondere crea una cartella, con "mkdir <risposta>", che      | 
 |                        abbia per nome la risposta                        |  
-|                           ed esegui azione.sh)                           |  
+|                       ed esegui "source azione.sh")                      |  
 |                                                                          |
 |__________________________________________________________________________|                                                                           
 
