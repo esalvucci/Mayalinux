@@ -7,8 +7,8 @@ ok()
 echo COMPLIMENTI!
 echo
 echo Hai risposto saggiamente!
-echo Ora ti donero la chiave per aprire la cella dei tuoi amici,
-echo purtroppo pero non so dove tu possa trovarla.
+echo 
+echo Il governatore ti libera ma, mentre.
 echo Prova a cercarla nei computer del forte, dovrebbe esserci un archivio dei prigionieri!
 echo
 rmdir uomo
