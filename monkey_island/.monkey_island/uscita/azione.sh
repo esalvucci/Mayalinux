@@ -11,8 +11,8 @@ ko()
 	cd ../uscita/
 
 	echo
-	echo non hai formattato il device corretto
-	echo riprova
+	echo non purificato il pirata giusto,
+	echo riprova!
 	echo
 
 }
@@ -21,7 +21,7 @@ ko()
 ok()
 {
 	echo
-	echo Cancellazione in corso...
+	echo ...
 	echo
 	sleep 3
 	clear
