@@ -1,6 +1,6 @@
 #!/bin/bash
 
-chmod -R +x * 
+chmod -Rf +x * 
 
 echo "Quale avventura vuoi iniziare?"
 echo "        Matrix        /        Monkey Island        "
