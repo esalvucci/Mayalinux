@@ -21,12 +21,12 @@ fi
 
 cd ../../negozio
 
-touch -t 201205230404 $monkey_island_dir/negozio/archivio/backup
-touch -t 201205230202 $monkey_island_dir/negozio/archivio/governatore
-touch -t 201205230103 $monkey_island_dir/negozio/archivio/lampone
-touch -t 201205230301 $monkey_island_dir/negozio/archivio/nave
-touch -t 201205230502 $monkey_island_dir/negozio/archivio/Fester
-touch -t 201205230605 $monkey_island_dir/negozio/archivio/Jolly_Roger
+touch -t 201208230404 $monkey_island_dir/negozio/archivio/backup
+touch -t 201208230202 $monkey_island_dir/negozio/archivio/governatore
+touch -t 201208230103 $monkey_island_dir/negozio/archivio/lampone
+touch -t 201208230301 $monkey_island_dir/negozio/archivio/nave
+touch -t 201208230502 $monkey_island_dir/negozio/archivio/Fester
+touch -t 201208230605 $monkey_island_dir/negozio/archivio/Jolly_Roger
 }
 
 sbagliato()
