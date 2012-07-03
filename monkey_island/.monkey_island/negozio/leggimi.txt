@@ -12,7 +12,7 @@ ________________________________________________________________________
 |	Dovrai aprire la cassaforte in assenza del vecchietto!          |
 |                                                                       |
 |     Sopri il codice criptato cercando nell'archivio del negozio       |
-|		        con il comando 'ls -l'                          |
+|	           con il comando 'ls -l archivio'                      |
 |	 	   fai attenzione ad ore e minuti!                      |
 |                                                                       |
 |                                                                       |
