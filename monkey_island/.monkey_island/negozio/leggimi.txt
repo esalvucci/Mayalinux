@@ -1,0 +1,25 @@
+________________________________________________________________________
+|                                                                       |
+|                                                                       |
+|                                                                       |
+|	Una nave costa molto, per questo dovrai chiedere una nota       |
+| 	        di credito al negoziante del villaggio,                 |
+|	         questo però rifiuterà il prestito.                     |
+|       ...se solo riuscissi ad aprire la cassaforte del negoziante...  |
+|                                                                       |
+|                                                                       |
+|                                                                       |
+|	Dovrai aprire la cassaforte in assenza del vecchietto!          |
+|                                                                       |
+|     Sopri il codice criptato cercando nell\'archivio del negozio      |
+|		        con il comando 'ls -l'                          |
+|	 	   fai attenzione ad ore e minuti!                      |
+|                                                                       |
+|                                                                       |
+|	          Quando avrai scoperto il codice                       |
+|      rinomina il file banana con il comando "mv banana <codice>"      |
+|		   ed esegui "source azione.sh"                         |
+|                                                                       |
+|                                                                       |
+|_______________________________________________________________________|
+
