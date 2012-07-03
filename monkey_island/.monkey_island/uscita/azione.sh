@@ -1,9 +1,9 @@
 #!/bin/bash
 
-dev1="`file neo_fs | grep 'filesystem data'`"
-dev2="`file dozer_fs | grep 'filesystem data'`"
-dev4="`file trinity_fs | grep 'filesystem data'`"
-dev3="`file oracolo_fs | grep 'filesystem data'`"
+dev1="`file anstis_fs | grep 'filesystem data'`"
+dev2="`file tucker_fs | grep 'filesystem data'`"
+dev4="`file wood_fs | grep 'filesystem data'`"
+dev3="`file murray_fs | grep 'filesystem data'`"
 
 
 ko()
@@ -23,25 +23,23 @@ ok()
 	echo
 	echo Cancellazione in corso...
 	echo
-	sleep 4
+	sleep 3
 	clear
-	echo Cancellazione drive di connessione compleatata
 	echo 
-	echo Bene, ora sei pulito. Puoi proseguire e dirigerti all\'uscita.
+	echo Bene, hai purificato tutti i pirati tranne uno, quello che ti indicherà dove si trova il governatore.
 	echo 
-	echo Per\ò c\'\è un problema. Hai appena avuto un deja vu.
-	echo Ti guardi intorno e scopri che gli Agenti hanno sigillato il forte.
-	echo Sei costretto allora ad addentrarti nello secantinato del quartier 
-	echo generale dove c\'\è una vecchia uscita che fa al caso vostro.
+	echo Ora puoi proseguire!
+	echo Senti dei rumori dentro la stiva, cosa sarà?
+	sleep 3
 	echo
-	sleep 5
-	echo
-	cd ./scantinato
-	echo "... ora sei nello scantinato del quartier generale!"
+	cd ./stiva
+	echo "...sei nella stiva della nave fantasma!"
 
 }
 
  if [[ "${dev1}" == "" && "${dev2}" == "" && "${dev4}" == "" && "${dev3}" != "" ]] ; then
+
+#quello giusto è il numero 3, Murray, unico pirata della lista di Monkey Island
 
 	ok
 else 	
