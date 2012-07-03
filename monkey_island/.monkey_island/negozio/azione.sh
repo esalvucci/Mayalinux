@@ -20,31 +20,31 @@ if [ -e monkey ]; then
 	rm monkey
 	touch banana
 	#chmod +x ../uscita/*
-	dd if=/dev/zero of=../uscita/neo_fs bs=2M count=2 &> /dev/null
-	dd if=/dev/zero of=../uscita/dozer_fs bs=2M count=2 &> /dev/null
-	dd if=/dev/zero of=../uscita/trinity_fs bs=2M count=2 &> /dev/null	
-	dd if=/dev/zero of=../uscita/oracolo_fs bs=2M count=2 &> /dev/null
+	dd if=/dev/zero of=../uscita/anstis_fs bs=2M count=2 &> /dev/null
+	dd if=/dev/zero of=../uscita/tucker_fs bs=2M count=2 &> /dev/null
+	dd if=/dev/zero of=../uscita/wood_fs bs=2M count=2 &> /dev/null	
+	dd if=/dev/zero of=../uscita/murray_fs bs=2M count=2 &> /dev/null
 
 	cd ../uscita
 	
-	if [ ! -e ../uscita/scantinato/elera ]; then
-		mkdir -p ../uscita/scantinato/elera
+	if [ ! -e ../uscita/stiva/winter ]; then
+		touch -p ../uscita/stiva/winter
 	fi
 
-	if [ ! -e ../uscita/scantinato/medom ]; then
-		mkdir -p ../uscita/scantinato/medom
+	if [ ! -e ../uscita/stiva/kechulc ]; then
+		touch -p ../uscita/stiva/kechulc
 	fi
 
-	if [ ! -e ../uscita/scantinato/pheno ]; then
-		mkdir -p ../uscita/scantinato/pheno
+	if [ ! -e ../uscita/stiva/taylor ]; then
+		touch -p ../uscita/stiva/taylor
 	fi
 
-	if [ ! -e ../uscita/scantinato/querty ]; then
-		mkdir -p ../uscita/scantinato/querty
+	if [ ! -e ../uscita/stiva/cooper ]; then
+		touch -p ../uscita/stiva/cooper
 	fi
 
-	if [ ! -e ../uscita/scantinato/scsi ]; then
-		mkdir -p ../uscita/scantinato/scsi
+	if [ ! -e ../uscita/stiva/blake ]; then
+		touch -p ../uscita/stiva/blake
 	fi
 	
 else
