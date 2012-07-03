@@ -6,6 +6,8 @@ echo
 echo " 1 - Matrix"
 echo " 2 - Monkey Island"
 echo
+echo Digita 1 o 2 e poi Invio
+echo
 read risposta
 case $risposta in
    1 )  cd matrix
