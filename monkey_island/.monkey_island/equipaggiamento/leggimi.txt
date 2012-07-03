@@ -1,7 +1,7 @@
 _____________________________________________________________________________
 |                                                                            |
 |                                                                            |
-|                  Scegli l'arma che ti sembra più adatta                    |
+|                  Scegli l'arma che ti sembra piu' adatta                   |
 |	 copiandola nella cartella "equipaggiamento" con il comando          |
 |                                                                            |
 |                      cp <oggetto> equipaggiamento                          |
