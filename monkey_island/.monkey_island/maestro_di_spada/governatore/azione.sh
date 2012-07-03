@@ -8,7 +8,7 @@ echo COMPLIMENTI!
 echo
 echo Hai risposto saggiamente!
 echo 
-echo Il governatore ti libera ma, uscito dal palazzo, scopri che lo sceriffo Fester ha rapito il governatore.
+echo Il governatore ti libera ma, uscito dal palazzo, scopri che lo sceriffo Fester lo ha rapito.
 echo 
 echo Ti serve un equipaggio ed una nave per salvare Elaine Marley!
 echo

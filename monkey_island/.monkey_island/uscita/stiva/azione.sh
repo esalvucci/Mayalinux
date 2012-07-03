@@ -6,23 +6,23 @@ echo
 echo Hai sbagliato, riprova!
 echo
 if [ ! -e ./winter ]; then
-	touch -p ./winter
+	touch  ./winter
 fi
 
 if [ ! -e ./kechulc ]; then
-	touch -p ./kechulc
+	touch  ./kechulc
 fi
 
 if [ ! -e ./taylor ]; then
-	touch -p ./taylor
+	touch  ./taylor
 fi
 
 if [ ! -e ./cooper ]; then
-	touch -p ./cooper
+	touch ./cooper
 fi
 
 if [ ! -e ./blake ]; then
-	touch -p ./blake
+	touch ./blake
 fi
 
 }

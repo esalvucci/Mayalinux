@@ -6,6 +6,7 @@ if [ ! -e ../equipaggiamento/equipaggiamento/mentine_per_alito ] && [ ! -e ../eq
 	echo
 	echo Attenzione, non ti sei equipaggiato!
 	echo Torna a scegliere l\'equipaggiamento più adatto...
+	echo
 	cd ../equipaggiamento
 
 else

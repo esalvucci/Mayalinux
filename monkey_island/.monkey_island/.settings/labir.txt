@@ -5,10 +5,10 @@ ______________________________________________________________________________
 |            sei finalmente riuscito a trovare la via d'uscita!               |
 |                                                                             |
 |                                                                             | 
-|		Al bar Scumm incontri i pirati della citt/à:                  |
+|		Al bar Scumm incontri i pirati della citta':                  |
 |       i loro capi ti assegnano tre prove per diventare un pirata.           |
 |                                                                             |
-|	    La prima di queste è imparare l'arte della spada.                 |
+|	    La prima di queste e' imparare l'arte della spada.                |
 |         Per dimostrare ai pirati che sai maneggiare una lama                |
 |        appuntita meglio di loro, devi vincere la sfida contro               |  
 |	                 il Maestro della Spada.                              |    

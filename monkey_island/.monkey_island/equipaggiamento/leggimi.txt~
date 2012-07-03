@@ -1,12 +1,23 @@
 _____________________________________________________________________________
 |                                                                            |
+|			          Bravo!                                     |
 |                                                                            |
-|                  Scegli l'arma che ti sembra più adatta                    |
+|         Sei uscito dalla boscaglia e hai raggiunto il bar Scuum            |
+|                                                                            |	
+|I tre pirati ti hanno dato delle missioni per raggiungere il tuo obiettivo, |
+|   una di queste e' vincere a duello con il maestro di spade, Carla         |
+|                                                                            |
+|      Prima pero' ti devi allenare con gli altri pirati dell'isola          |
+|                    e per farlo ti serve un'arma!                           |
+|                                                                            |
+|                                                                            |
+|                Scegli l'arma che ti sembra più adatta                      |
 |	 copiandola nella cartella "equipaggiamento" con il comando          |
 |                                                                            |
 |                      cp <oggetto> equipaggiamento                          |
 |                                                                            |
-|               Attenzione a non prendere piu' di un oggetto                 |
+|      Attenzione a non prendere piu' di un oggetto perche' potrebbero       |
+|                       succedere cose inaspettate...                        |
 |        Dopo aver copiato il tuo oggetto nell'equipaggiamento esegui 	     | 
 |                                                                            |
 |                             source azione.sh                               |

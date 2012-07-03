@@ -2,19 +2,19 @@ ______________________________________________________________________________
 |                                                                            |
 |                                                                            |
 |           Appena entrato nella stiva inizi a sentire delle voci,           |
-| 	         una è sicuramente quella del governatore.                   |
+| 	         una e' sicuramente quella del governatore.                  |
 |                                                                            |
 |              Nella stiva trovi proprio il governatore con                  |
-|	    cinque famosi pirati di cui però non ricordi i nomi              |
+|	   cinque famosi pirati di cui pero' non ricordi i nomi              |
 |	            Questi tengono prigioniera Elaine                        |    
 |                                                                            |
 |           Per salvare Elaine devi sconfiggere quattro pirati,              |
-|	     il quinto è il tuo peggior nemico, che, da solo                 |
+|	     il quinto e' il tuo peggior nemico, che, da solo                |
 |	          non potrà fare altro che arrendersi!                       |
 |                                                                            |
 |    Utilizza il comando "rm <nome pirata>" per rimuovere i quattro pirati   |
-|             Quando ne sarà rimasto solo uno esegui "azione.sh"             |     |                                                                            |
-|                         Incrocia le dita e rispondi.                       |
+|            Quando ne sara' rimasto solo uno esegui "azione.sh"             |     
+|                       Incrocia le dita e rispondi.                         |
 |                                                                            |
 |         Attento: non e' detto che il significato dei nomi dei pirati       |
 |	                 siano scritti in modo corretto.                     |
