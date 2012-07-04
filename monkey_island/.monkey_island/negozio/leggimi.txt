@@ -4,12 +4,12 @@ ________________________________________________________________________
 |                                                                       |
 |	Una nave costa molto, per questo dovrai chiedere una nota       |
 | 	        di credito al negoziante del villaggio,                 |
-|	         questo pero' rifiuterà il prestito.                    |
+|	         questo pero' rifiutera' il prestito.                   |
 |       ...se solo riuscissi ad aprire la cassaforte del negoziante...  |
 |                                                                       |
 |                                                                       |
 |                                                                       |
-|	Dovrai aprire la cassaforte in assenza del vecchietto!          |
+|     Dovrai aprire la cassaforte in assenza dell'astuto venditore      |
 |                                                                       |
 |     Sopri il codice criptato cercando nell'archivio del negozio       |
 |	           con il comando 'ls -l archivio'                      |

@@ -4,7 +4,7 @@ vabene()
 {
 echo
 echo Ottimo!
-echo Grazie al pollo riesci a vincere, a suon di insulti, il duello contro Carla, il Maestro di Spada.
+echo Grazie al pollo di gomma riesci a vincere, a suon di insulti, il duello contro Carla, il Maestro di Spada.
 echo 
 echo
 echo Sei pronto per la seconda prova: entrare nella casa del governatore e saccheggiarla!
@@ -93,13 +93,13 @@ if [ -e ../equipaggiamento/equipaggiamento/idolo_del_governatore ] ; then
 idolo_del_governatore
 fi
 
-if [ -e ../equipaggiamento/equipaggiamento/pollo ] ; then
+if [ -e ../equipaggiamento/equipaggiamento/pollo_di_gomma ] ; then
 vabene
 fi
 
 }
 
-if [ -e ../equipaggiamento/equipaggiamento/idolo_del_governatore ]|| [ -e ../equipaggiamento/equipaggiamento/vanga ] || [ -e ../equipaggiamento/equipaggiamento/mentine_per_alito ] || [ -e ../equipaggiamento/equipaggiamento/boccale_di_grog ] || [ -e ../equipaggiamento/equipaggiamento/pollo ]; then 
+if [ -e ../equipaggiamento/equipaggiamento/idolo_del_governatore ]|| [ -e ../equipaggiamento/equipaggiamento/vanga ] || [ -e ../equipaggiamento/equipaggiamento/mentine_per_alito ] || [ -e ../equipaggiamento/equipaggiamento/boccale_di_grog ] || [ -e ../equipaggiamento/equipaggiamento/pollo_di_gomma ]; then 
 	
 equi
 
