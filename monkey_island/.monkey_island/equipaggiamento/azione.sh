@@ -25,7 +25,7 @@ echo incontri il secondo pirata, e inizi a rispondere a tono ai suoi insulti, pe
 echo
 echo
 sleep 2
-echo Incontri il terzo pirata e finalmente riesci a vincere insultandolo a dovere!
+echo
 echo
 echo
 sleep 1

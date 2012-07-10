@@ -1,7 +1,7 @@
 #!/bin/bash
 #set livello 3
 
-if [ ! -e ../equipaggiamento/equipaggiamento/mentine_per_alito ] && [ ! -e ../equipaggiamento/equipaggiamento/boccale_di_grog ] && [ ! -e ../equipaggiamento/equipaggiamento/idolo_del_governatore ] && [ ! -e ../equipaggiamento/equipaggiamento/pollo ] && [ ! -e ../equipaggiamento/equipaggiamento/vanga ]; then 
+if [ ! -e ../equipaggiamento/equipaggiamento/mentine_per_alito ] && [ ! -e ../equipaggiamento/equipaggiamento/boccale_di_grog ] && [ ! -e ../equipaggiamento/equipaggiamento/idolo_del_governatore ] && [ ! -e ../equipaggiamento/equipaggiamento/pollo_di_gomma ] && [ ! -e ../equipaggiamento/equipaggiamento/vanga ]; then 
 
 	echo
 	echo Attenzione, non ti sei equipaggiato!

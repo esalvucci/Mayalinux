@@ -1,8 +1,8 @@
 ____________________________________________________________________________
 |                                                                           |
 |                                                                           |
-|   Programma per l'apprendimento di alcuni comandi del terminale Linux,    |
-|          creato esclusivamente con comandi Bash in file Bash.             |
+|   Programma per l'apprendimento di alcuni comandi del terminale Linux     |
+|                                                                           |
 |                                                                           |
 |           Sviluppato dalla staff del Campo di Competenza AGESCI           |
 |                 "Esploratori della rete, Bit Prepared!"                   |

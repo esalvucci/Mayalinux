@@ -32,7 +32,7 @@ ok()
 	echo Senti dei rumori dentro la stiva, cosa sarà?
 	sleep 3
 	echo
-	cd ./stiva
+	cd ./.stiva
 	echo "...sei nella stiva della nave fantasma!"
 
 }
