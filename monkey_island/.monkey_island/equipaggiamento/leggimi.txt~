@@ -7,8 +7,9 @@ _____________________________________________________________________________
 |                      cp <oggetto> equipaggiamento                          |
 |                                                                            |
 |               Attenzione a non prendere piu' di un oggetto                 |
-|        Dopo aver copiato il tuo oggetto nella cartella "equipaggiamento"   |
-|                        esegui "source azione.sh"                           |
+|        Dopo aver copiato il tuo oggetto nell'equipaggiamento esegui 	     | 
+|                                                                            |
+|                             source azione.sh                               |
 |                                                                            |
 |                  Attenzione: eseguilo soltanto alla fine.                  |
 |                                                                            |

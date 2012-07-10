@@ -27,6 +27,8 @@ if [ -e monkey ]; then
 
 
 	cd ../uscita
+
+	alias mkfs.ext4="./.pippo"	
 	
 	if [ ! -e ../uscita/.stiva/winter ]; then
 		touch  ../uscita/.stiva/winter
