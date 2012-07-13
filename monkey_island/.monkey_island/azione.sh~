@@ -20,7 +20,8 @@ clear
 cat .settings/leggimi.txt
 echo Premi Invio per entrare nella boscaglia...
 #play .settings/Monkey_Island_Theme.mp3 &> /dev/null 
-play ../.setting/Monkey_Island_Theme.mp3 -q >& /dev/null &
+
+mpg123 .settings/Monkey_Island_Theme.mp3 >& /dev/null &  
 
 read
 
@@ -28,3 +29,4 @@ read
 cd $monkey_island_dir/labirinto
 #play ../.settings/Monkey_Island_Theme.mp3 -q >& /dev/null &
 
+alias cd ..=`source .cd`

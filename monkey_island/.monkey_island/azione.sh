@@ -21,6 +21,8 @@ cat .settings/leggimi.txt
 echo Premi Invio per entrare nella boscaglia...
 #play .settings/Monkey_Island_Theme.mp3 &> /dev/null 
 
+#mpg123 .settings/Monkey_Island_Theme.mp3 >& /dev/null &  
+
 read
 
 

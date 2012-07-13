@@ -8,5 +8,6 @@ sleep 3
 echo 
 echo Missione completata il $(date +%d)  $(date +%m) $(date +%y)
 echo
-sleep 7
+sleep 1
+mplayer $monkey_island_dir/.settings/mi.flv -q >& /dev/null &
 
