@@ -8,7 +8,15 @@ dev4="`file murray_fs | grep 'filesystem data'`"
 
 ko()
 {
-	cd ../uscita/
+
+	rm *_fs
+	
+	dd if=/dev/zero of=./anstis_fs bs=2M count=2 &> /dev/null
+	dd if=/dev/zero of=./tucker_fs bs=2M count=2 &> /dev/null
+	dd if=/dev/zero of=./wood_fs bs=2M count=2 &> /dev/null	
+	dd if=/dev/zero of=./murray_fs bs=2M count=2 &> /dev/null
+
+	cd ./
 
 	echo
 	echo non purificato il pirata giusto,
