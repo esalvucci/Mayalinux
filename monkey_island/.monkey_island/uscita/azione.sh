@@ -2,8 +2,8 @@
 
 dev1="`file anstis_fs | grep 'filesystem data'`"
 dev2="`file tucker_fs | grep 'filesystem data'`"
-dev4="`file wood_fs | grep 'filesystem data'`"
-dev3="`file murray_fs | grep 'filesystem data'`"
+dev3="`file wood_fs | grep 'filesystem data'`"
+dev4="`file murray_fs | grep 'filesystem data'`"
 
 
 ko()
