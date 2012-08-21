@@ -27,5 +27,5 @@ read
 
 
 cd $monkey_island_dir/labirinto
-#play ../.settings/Monkey_Island_Theme.mp3 -q >& /dev/null &
+play ../.settings/Monkey_Island_Theme.mp3 -q >& /dev/null &
 
