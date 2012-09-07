@@ -1,6 +1,7 @@
 #!/bin/bash
 
 export monkey_island_dir=`pwd`
+alias lab="cd '$monkey_island_dir'/.settings && source trucco_labirinto.sh"
 
 cat .settings/titolo.txt
 echo Premi Invio...
