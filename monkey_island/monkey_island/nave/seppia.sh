@@ -14,6 +14,7 @@ echo premi Invio
 read
 cd ../matrice
 
+
 }
 
 if [ -e suicida.sh ]|| [ -e diversiv.sh ] || [ -e sabotagg.sh ] || [ -e furtiva.sh ]; then err
