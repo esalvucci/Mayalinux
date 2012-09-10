@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# controllo se l'equipaggiamento scelto è giusto con la funzione "equi"
+
+#questa funzione viene utilizzata se l'equipaggiamento scelto è giusto, le altre, se è sbagliato; una per ogni oggetto
 vabene()
 {
 echo
