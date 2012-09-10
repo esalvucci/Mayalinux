@@ -9,19 +9,11 @@
 |                                                                             |
 |                                                                             |
 |                                                                             |
-<<<<<<< .merge_file_tni31S
 |                                                                             |
 |	           Premi Invio per iniziare l'avventura...                    |
 |	                                                                      |
 |                                                                             |
 |                                                                             |
-=======
-|            01001101 01000001 01010100 01010010 01001001 01011000            |
-|	                                                                      |
-|	                   Aiuta  Guybrush  .........                         |
-|                                                                             |
-|                  Premi Invio per iniziare l'avventura...                    |
->>>>>>> .merge_file_t0rPYU
 |_____________________________________________________________________________|
 
 
