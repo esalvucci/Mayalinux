@@ -1,7 +1,6 @@
 #!/bin/bash
 
-#cat ./leggimi.txt
-
+#controllo se esiste la directory "uomo" e quindi se la risposta al quesito del governatore è giusta o no
 ok()
 {
 echo COMPLIMENTI!

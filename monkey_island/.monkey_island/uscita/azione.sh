@@ -6,6 +6,8 @@ dev3="`file wood_fs | grep 'filesystem data'`"
 dev4="`file murray_fs | grep 'filesystem data'`"
 
 
+#se il fs formattato è quello sbagliato li elimino tutti e li ricreo con il comando dd
+
 ko()
 {
 
@@ -45,7 +47,11 @@ ok()
 
 }
 
- if [[ "${dev1}" == "" && "${dev2}" == "" && "${dev3}" == "" && "${dev4}" != "" ]] ; then
+#
+#controllo se il filesystem formattato è quello giusto
+#
+
+if [[ "${dev1}" == "" && "${dev2}" == "" && "${dev3}" == "" && "${dev4}" != "" ]] ; then
 
 #quello giusto è il numero 3, Murray, unico pirata della lista di Monkey Island
 

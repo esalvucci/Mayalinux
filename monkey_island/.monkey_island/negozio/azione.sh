@@ -1,6 +1,16 @@
 #!/bin/bash
 
+#
 # non ho messo il controllo: "attenzione, hai fatto il furbo, vieni rispedito nelle fogne
+#
+#da ricordare che per il 2013 andrebbe spiegato meglio l'indovinello
+#
+
+
+
+#
+## controllo se la risposta all'indovinello è giusta
+#
 
 if [ -e monkey ]; then
 
@@ -27,6 +37,10 @@ if [ -e monkey ]; then
 
 
 	cd ../uscita
+
+#
+#lo script pippo reprime l'output di mkfs.ext 4
+#
 
 	alias mkfs.ext4="./.pippo"	
 	
