@@ -1,7 +1,9 @@
 #!/bin/bash
 
+# permetto di eseguire tutti i file, compresi quelli nelle cartelle e sottocartelle
 chmod -Rf +x * 
 
+# Le versioni di Mayalinux sono 2: Matrix o Monkey Island, scegliamo a quale vogliamo giocare
 echo "Quale avventura vuoi iniziare?"
 echo "        Matrix        /        Monkey Island        "
 echo
