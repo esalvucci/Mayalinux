@@ -1,0 +1,19 @@
+Le regole del gioco
+
+$  cd cartella
+# mi sposto nella directory cartella
+
+$ cp file1 cartella
+#copio il file1 dentro la directory cartella
+
+$ mkdir cartella
+#crea la directory cartella
+
+$ mkfs.ext4 filesystem
+#formatta l'fs chiamato filesystem
+
+$ source script.sh			
+#esegue lo script “script.sh”
+
+$ cat file.txt
+#legge il contenuto del file txt
