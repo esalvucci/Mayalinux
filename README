@@ -1,19 +1,45 @@
-Le regole del gioco
+____________________________________________________________________________
+|                                                                           |
+|                                                                           |
+|   Programma per l'apprendimento di alcuni comandi del terminale Linux     |
+|                                                                           |
+|                                                                           |
+|           Sviluppato dalla staff del Campo di Competenza AGESCI           |
+|                 "Esploratori della rete, Bit Prepared!"                   |
+|                                                                           |
+|                     versione 1.1 Matrix  - Luglio  2011                   |
+|                  versione 2.1 Monkey Island - Luglio 2012                 |   
+|                                                                           |
+|                                                                           |
+|                	 Per informazioni sul campo:                        |
+|		 Capi campo - email: capicampo@bitprepared.it               |
+|                                                                           |
+|                  Segnalare eventuali errori o anomalie ad:                |
+|            Enrico Salvucci - email: aironetrasognato@gmail.com            |
+|                                                                           |
+|___________________________________________________________________________|
+
+			  Le regole del gioco
+
+$ cat file.txt 				
+# legge il contenuto del file txt
+
+$ source script.sh			
+# esegue lo script “script.sh”
 
 $  cd cartella
 # mi sposto nella directory cartella
 
 $ cp file1 cartella
-#copio il file1 dentro la directory cartella
+# copio il file1 dentro la directory cartella
+
+$ mv file1 file2
+# rinomino il file 1 in file 2
 
 $ mkdir cartella
-#crea la directory cartella
+# crea la directory cartella
 
 $ mkfs.ext4 filesystem
-#formatta l'fs chiamato filesystem
+# formatta l'fs chiamato filesystem
 
-$ source script.sh			
-#esegue lo script “script.sh”
 
-$ cat file.txt
-#legge il contenuto del file txt
