@@ -9,7 +9,7 @@ ________________________________________________________________________________
 |	       Fai attenzione, possono essere molto pericolosi                  |
 |                                                                               |
 |	    Per purificarli e farli tornare umani utilizza il comando           |
-|                         mkfs.ext4 -F <nome filesystem>                        |
+|                         mkfs.ext4 <nome filesystem>                           |
 |	                                                                        |
 |                       Devi purificarli tutti tranne uno,                      |
 |	      quello che ti indicherà dove si trova il governatore!             |
