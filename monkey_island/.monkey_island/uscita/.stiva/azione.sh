@@ -43,7 +43,7 @@ bravo()
 
 if [ ! -e ./kechulc ]; then errore
 else
-	if [ ! -d ./winter ] || [ ! -d ./cooper ] || [ ! -d ./taylor ] || [ ! -e ./blake ]; then
+	if [ ! -e ./winter ] || [ ! -e ./cooper ] || [ ! -e ./taylor ] || [ ! -e ./blake ]; then
 	bravo
 	else
 	echo ne deve rimanere solo 1...

@@ -4,6 +4,7 @@ export monkey_island_dir=`pwd`
 
 # per la versione 2013 è stato ripristinato il trucco che porta alla fine del labirinto
 # digitare l'alias "lab", la password richiesta è "lab"
+
 alias lab="cd '$monkey_island_dir'/.settings && source trucco_labirinto.sh"
 
 # inizia il lancio del gioco, con titolo, autori e spiegazione
@@ -36,6 +37,10 @@ read
 
 # Nel 2012 abbiamo provato ad usare il comando play/mpg123 per fare sentire la musica di Monkey Island ma c'era il problema dell'output alla fine della canzone (e non all'inizio)
 
+
+# chroot per evitare che i ragazzi con "cd .." escano dal gioco
+#sudo mount -o bind /dev /tmp/dev
+#sudo mount -t proc none /tmp/proc
 
 
 

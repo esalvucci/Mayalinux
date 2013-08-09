@@ -1,9 +1,9 @@
 #!/bin/bash
 
-dev1="`file anstis_fs | grep 'filesystem data'`"
-dev2="`file tucker_fs | grep 'filesystem data'`"
-dev3="`file wood_fs | grep 'filesystem data'`"
-dev4="`file murray_fs | grep 'filesystem data'`"
+dev1="`file anstis_fs | grep 'OS type'`"
+dev2="`file tucker_fs | grep 'OS type'`"
+dev3="`file wood_fs | grep 'OS type'`"
+dev4="`file murray_fs | grep 'OS type'`"
 
 
 #se il fs formattato è quello sbagliato li elimino tutti e li ricreo con il comando dd
@@ -21,7 +21,7 @@ ko()
 	cd ./
 
 	echo
-	echo non purificato il pirata giusto,
+	echo Hai purificato il pirata sbagliato oppure non li hai purificati tutti,
 	echo riprova!
 	echo
 
@@ -51,7 +51,7 @@ ok()
 #controllo se il filesystem formattato è quello giusto
 #
 
-if [[ "${dev1}" == "" && "${dev2}" == "" && "${dev3}" == "" && "${dev4}" != "" ]] ; then
+if [[ "${dev1}" != "" && "${dev2}" != "" && "${dev3}" != "" && "${dev4}" == "" ]] ; then
 
 #quello giusto è il numero 3, Murray, unico pirata della lista di Monkey Island
 
