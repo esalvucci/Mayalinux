@@ -1,9 +1,9 @@
 #!/bin/bash
 
-dev1="`file anstis_fs | grep 'filesystem'`"
-dev2="`file tucker_fs | grep 'filesystem'`"
-dev3="`file wood_fs | grep 'filesystem'`"
-dev4="`file murray_fs | grep 'filesystem'`"
+dev1="`file jack_sparrow_fs | grep 'filesystem'`"
+dev2="`file capitan_uncino_fs | grep 'filesystem'`"
+dev3="`file barbarossa_fs | grep 'filesystem'`"
+dev4="`file mancomb_seepgood_fs | grep 'filesystem'`"
 
 
 #se il fs formattato è quello sbagliato li elimino tutti e li ricreo con il comando dd
