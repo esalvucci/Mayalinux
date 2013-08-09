@@ -21,7 +21,7 @@ ko()
 	cd ./
 
 	echo
-	echo Hai purificato il pirata sbagliato oppure non ne hai purificati 3,
+	echo Hai scelto \(escluso\)  il pirata sbagliato oppure non ne hai purificati 3,
 	echo riprova!
 	echo
 
