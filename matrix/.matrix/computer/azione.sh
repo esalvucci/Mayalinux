@@ -26,6 +26,12 @@ if [ -e vigilant ]; then
 	dd if=/dev/zero of=../uscita/trinity_fs bs=2M count=2 &> /dev/null	
 	dd if=/dev/zero of=../uscita/oracolo_fs bs=2M count=2 &> /dev/null
 
+#
+#lo script pippo reprime l'output di mkfs.ext 4
+#
+
+	alias mkfs.ext4="./.pippo"	
+
 	cd ../uscita
 	
 	if [ ! -e ../uscita/scantinato/elera ]; then

@@ -1,9 +1,9 @@
 #!/bin/bash
 
-dev1="`file neo_fs | grep 'filesystem data'`"
-dev2="`file dozer_fs | grep 'filesystem data'`"
-dev4="`file trinity_fs | grep 'filesystem data'`"
-dev3="`file oracolo_fs | grep 'filesystem data'`"
+dev1="`file neo_fs | grep 'filesystem'`"
+dev2="`file dozer_fs | grep 'filesystem'`"
+dev4="`file trinity_fs | grep 'filesystem'`"
+dev3="`file oracolo_fs | grep 'filesystem'`"
 
 
 ko()
