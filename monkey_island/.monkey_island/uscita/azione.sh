@@ -13,10 +13,10 @@ ko()
 
 	rm *_fs
 	
-	dd if=/dev/zero of=./anstis_fs bs=2M count=2 &> /dev/null
-	dd if=/dev/zero of=./tucker_fs bs=2M count=2 &> /dev/null
-	dd if=/dev/zero of=./wood_fs bs=2M count=2 &> /dev/null	
-	dd if=/dev/zero of=./murray_fs bs=2M count=2 &> /dev/null
+	dd if=/dev/zero of=./jack_sparrow_fs bs=2M count=2 &> /dev/null
+	dd if=/dev/zero of=./capitan_uncino_fs bs=2M count=2 &> /dev/null
+	dd if=/dev/zero of=./barbarossa_fs bs=2M count=2 &> /dev/null	
+	dd if=/dev/zero of=./mancomb_seepgood_fs bs=2M count=2 &> /dev/null
 
 	cd ./
 

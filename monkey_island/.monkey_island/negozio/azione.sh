@@ -30,10 +30,10 @@ if [ -e monkey ]; then
 	rm monkey
 	touch banana
 	#chmod +x ../uscita/*
-	dd if=/dev/zero of=../uscita/anstis_fs bs=2M count=2 &> /dev/null
-	dd if=/dev/zero of=../uscita/tucker_fs bs=2M count=2 &> /dev/null
-	dd if=/dev/zero of=../uscita/wood_fs bs=2M count=2 &> /dev/null	
-	dd if=/dev/zero of=../uscita/murray_fs bs=2M count=2 &> /dev/null
+	dd if=/dev/zero of=../uscita/jack_sparrow_fs bs=2M count=2 &> /dev/null
+	dd if=/dev/zero of=../uscita/capitan_uncino_fs bs=2M count=2 &> /dev/null
+	dd if=/dev/zero of=../uscita/barbarossa_fs bs=2M count=2 &> /dev/null	
+	dd if=/dev/zero of=../uscita/mancomb_seepgood_fs bs=2M count=2 &> /dev/null
 
 
 	cd ../uscita

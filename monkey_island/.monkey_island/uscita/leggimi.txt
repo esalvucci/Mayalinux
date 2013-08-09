@@ -12,7 +12,8 @@ ________________________________________________________________________________
 |                         mkfs.ext4 <nome filesystem>                           |
 |	                                                                        |
 |                       Devi purificarli tutti tranne uno,                      |
-|	      quello che ti indicherà dove si trova il governatore!             |
+|	      quello che più probabilmente ha conosciuto il governatore         |
+|                  Sarà lui ad indicarti dove si trova Elaine!                  |
 |                                                                               |
 |										|
 |										|
