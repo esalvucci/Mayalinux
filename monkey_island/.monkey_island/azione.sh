@@ -43,6 +43,8 @@ read
 #sudo mount -t proc none /tmp/proc
 
 
-
+# se esiste un file .auto.sh nella directory lo esegue
+#trap 'test -f ./.nocd && cd -' DEBUG
+export PROMPT_COMMAND="test -f ./.auto.sh && source ./.auto.sh"
 cd $monkey_island_dir/labirinto
 
