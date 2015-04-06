@@ -1,14 +1,13 @@
 #!/bin/bash
 
-export monkey_island_dir=`pwd`
-
 # per la versione 2013 è stato ripristinato il trucco che porta alla fine del labirinto
 # digitare l'alias "lab", la password richiesta è "lab"
 
-alias lab="cd '$monkey_island_dir'/.settings && source trucco_labirinto.sh"
+export current_dir=`pwd`
+alias lab="cd '$current_dir'/.settings && source trucco_labirinto.sh"
 
 # inizia il lancio del gioco, con titolo, autori e spiegazione
-cat .settings/titolo.txt
+cat .settings/$GAME/titolo.txt
 echo Premi Invio...
 read
 
@@ -24,7 +23,8 @@ read
 
 clear
 cat .settings/leggimi.txt
-echo Premi Invio per entrare nella boscaglia...
+#echo Premi Invio per entrare nella boscaglia...
+cat .settings/$GAME/inizia_labirinto.txt
 read
 
 #
@@ -46,5 +46,5 @@ read
 # se esiste un file .auto.sh nella directory lo esegue
 #trap 'test -f ./.nocd && cd -' DEBUG
 export PROMPT_COMMAND="test -f ./.auto.sh && source ./.auto.sh"
-cd $monkey_island_dir/labirinto
+cd $current_dir/labirinto
 

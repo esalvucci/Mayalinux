@@ -7,8 +7,9 @@ export PS1='\e[1;35m \[\e]0;Monkey Island\a\]Monkey Island $ '
 #export PS1='\e[1;35m \[\e];Monkey Island $ '
 
 # viene rimossa la cartella monkey_island (e poi ricreata) in modo che le modifiche ai file, fatte durante una partita, vengano eliminate prima della partita sucessiva
-rm -rf ./monkey_island
+#rm -rf ./monkey_island
+rm -rf ./$GAME
 
-cp -r ./.monkey_island/ ./monkey_island/
-cd ./monkey_island/
+cp -r ./.$GAME/ ./$GAME/
+cd ./$GAME/
 source azione.sh
