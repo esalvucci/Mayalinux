@@ -8,7 +8,7 @@ case $? in
          0)
 
 		if [ "${ENTRY}" == "lab" ] ; then
-			cd   $current_dir/labirinto/a/d/s/d/a/a/a/d/s
+			cd   $CURRENT_DIR/labirinto/a/d/s/d/a/a/a/d/s
 			echo "vai alla fine del labirinto" 
 		else
 			echo "codice sbagliato"

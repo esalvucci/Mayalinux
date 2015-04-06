@@ -1,8 +1,9 @@
 #!/bin/bash
 
 clear
-cat $monkey_island_dir/.settings/labir.txt
+cat $CURRENT_DIR/.settings/$GAME/labir.txt
 
-mkdir -p $monkey_island_dir/equipaggiamento/equipaggiamento
+mkdir -p $CURRENT_DIR/equipaggiamento/equipaggiamento
 
-cd $monkey_island_dir/equipaggiamento
+cp $CURRENT_DIR/.settings/$GAME/equipaggiamento/* $CURRENT_DIR/equipaggiamento/
+cd $CURRENT_DIR/equipaggiamento
