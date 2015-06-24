@@ -1,0 +1,18 @@
+
+________________________________________________________________________
+|                                                                       |
+|                                                                       |
+|     Dovrai aprire la cassaforte in assenza dell'astuto venditore      |
+|                                                                       |
+|     		Sopri il codice criptato cercando nell'archivio         |
+|	           con il comando 'ls -l archivio'                      |
+|	 	   fai attenzione ad ore e minuti!                      |
+|                                                                       |
+|                                                                       |
+|	          Quando avrai scoperto il codice                       |
+|      rinomina il file banana con il comando "mv banana <codice>"      |
+|		   ed esegui "source azione.sh"                         |
+|                                                                       |
+|                                                                       |
+|_______________________________________________________________________|
+
