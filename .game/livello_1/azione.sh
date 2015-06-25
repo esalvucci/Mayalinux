@@ -21,10 +21,8 @@ else
 
 echo 
 sleep 1
-../.settings/$GAME/testi_livello_2/generale.txt
-sleep 1
+cat ../.settings/$GAME/testi_livello_2/generale.txt
 
-#cp -r $CURRENT_DIR/.$GAME/livello_2 $CURRENT_DIR/
 cd ../livello_2
 source azione.sh
 

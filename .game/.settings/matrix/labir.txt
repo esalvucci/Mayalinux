@@ -1,23 +1,16 @@
- ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿
- ³                                                                            ³
- ³                                                                            ³
- ³                                                                            ³
- ³                                                                            ³
- ³                                                                            ³
- ³                                                                            ³
- ³                                                                            ³
- ³     Dopo ore e ore trascorse a girovagare alla cieca dentro al dedalo      ³
- ³   di rete fognaria, sei finalmente riuscito a trovare il punto di quota    ³
- ³    trasmissione! Scopri pero' che il tuo vagare nella rete fognaria ha     ³
- ³        destato l'attenzione di diverse seppie che hanno iniziato           ³
- ³              a pattugliare la zona alla ricerca di intrusi.                ³
- ³                                                                            ³
- ³                                                                            ³
- ³                                                                            ³
- ³                                                                            ³
- ³                                                                            ³
- ³       L'unica soluzione e' quella di inviare una sonda a distrarle         ³
- ³                                                                            ³
- ³                                                                            ³
- ³                                                                            ³
- ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ
+______________________________________________________________________________
+|									      |
+|        Bene dopo essere entrato in Matrix senza equipaggiamento sei         |
+|     riuscito a trovare una cabina telefonica per metterti in contatto       |
+|    con l'operatore che grazie alla sua abilita' riuscira' a farti avere     |
+|        un solo oggetto tramite la connessione scadente della cabina.        |
+|									      |
+|                    Puoi prendere una di queste cose:                        |
+|                                                                             |
+|   - Giubbotto anti proiettili    - Desert Eagle       - Nokia 7110          |
+|   - Esplosivo                    - Yamaha R6                                |
+|                                                                             |
+|    La gente intorno guarda incuriosita e il tempo stringe, potrebbero       |
+|		     arrivare agenti in ogni momento.			      |				
+|                                                                             |
+|_____________________________________________________________________________|

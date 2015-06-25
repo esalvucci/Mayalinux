@@ -7,6 +7,18 @@ vabene()
 {
 cd ../livello_3
 cat ../.settings/$GAME/testi_livello_2/$OGGETTO_5
+cp ../.settings/$GAME/testi_livello_2/indovinello ../livello_3/leggimi.txt
+echo "|         Qual e' quell'animale che da giovane ha quattro zampe,           |" >> ../livello_3/leggimi.txt
+echo "|                     da adulto due e da vecchio tre?                      |" >> ../livello_3/leggimi.txt                                                                          
+echo "|                                                                          |" >> ../livello_3/leggimi.txt
+echo "|                                                                          |" >> ../livello_3/leggimi.txt
+echo "|                                                                          |" >> ../livello_3/leggimi.txt
+echo "|      (per rispondere crea una cartella, con 'mkdir <risposta>', che      |" >> ../livello_3/leggimi.txt
+echo "|                        abbia per nome la risposta                        |" >> ../livello_3/leggimi.txt
+echo "|                       ed esegui 'source azione.sh')                      |" >> ../livello_3/leggimi.txt 
+echo "|                                                                          |" >> ../livello_3/leggimi.txt
+echo "|__________________________________________________________________________|" >> ../livello_3/leggimi.txt
+ 
 }
 
 del()
@@ -16,47 +28,49 @@ rm -r ../livello_1/equipaggiamento/
 mkdir ../livello_1/equipaggiamento
 }
 
-vanga()
+
+
+oggetto_1()
 {
-cat ../.settings/$GAME/testi_livello_2/$OGGETTO_4
-del
+	cat ../.settings/$GAME/testi_livello_2/$OGGETTO_1
+	del
 }
 
-mentine_per_alito()
+oggetto_2()
 {
-cat ../.settings/$GAME/testi_livello_2/$OGGETTO_1
-del
+	cat ../.settings/$GAME/testi_livello_2/$OGGETTO_2
+	del
 }
 
-idolo_del_governatore()
+oggetto_3()
 {
-cat ../.settings/$GAME/testi_livello_2/$OGGETTO_3
-del
+	cat ../.settings/$GAME/testi_livello_2/$OGGETTO_3
+	del
 }
 
-boccale_di_grog()
+oggetto_4()
 {
-cat ../.settings/$GAME/testi_livello_2/$OGGETTO_2
-del
+	cat ../.settings/$GAME/testi_livello_2/$OGGETTO_4
+	del
 }
 
 equi()
 {
 
-if [ -e ../livello_1/equipaggiamento/$OGGETTO_4 ] ; then
-vanga
+if [ -e ../livello_1/equipaggiamento/$OGGETTO_1 ] ; then
+oggetto_1
 fi
 
 if [ -e ../livello_1/equipaggiamento/$OGGETTO_2 ] ; then
-boccale_di_grog
-fi
-
-if [ -e ../livello_1/equipaggiamento/$OGGETTO_1 ] ; then
-mentine_per_alito
+oggetto_2
 fi
 
 if [ -e ../livello_1/equipaggiamento/$OGGETTO_3 ] ; then
-idolo_del_governatore
+oggetto_3
+fi
+
+if [ -e ../livello_1/equipaggiamento/$OGGETTO_4 ] ; then
+oggetto_4
 fi
 
 if [ -e ../livello_1/equipaggiamento/$OGGETTO_5 ] ; then

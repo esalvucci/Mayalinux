@@ -3,31 +3,29 @@
 #controllo se esiste la directory "uomo" e quindi se la risposta al quesito del governatore è giusta o no
 ok()
 {
-echo COMPLIMENTI!
-echo
-echo Hai risposto saggiamente!
-echo 
-echo Il governatore ti libera ma, uscito dal palazzo, scopri che lo sceriffo Fester lo ha rapito.
-echo 
-echo Ti serve un equipaggio ed una nave per salvare Elaine Marley!
-echo
- 
+cat ../.settings/$GAME/testi_livello_3/ok 
 rmdir uomo
 
-# cp -r $CURRENT_DIR/.$GAME/livello_4 $CURRENT_DIR/
-
-if [ ! -e ../livello_4/banana ]; then
-touch ../livello_4/banana
+# Qui bisogna mettere uno script che esegua le prossime 22 righe in base a $GAME
+if [ $GAME == "monkey_island" ] ; then
+	touch ../livello_4/banana
+	RISPOSTA='monkey'
 fi
 
+if [ $GAME == "matrix" ] ; then
+	touch ../livello_4/cella
+	RISPOSTA='vigilant'
+fi
+
+source .oggetti.sh
 cd ../livello_4
 
-touch -t 210005230404 $CURRENT_DIR/livello_4/archivio/backup
-touch -t 210005230202 $CURRENT_DIR/livello_4/archivio/governatore
-touch -t 210005230103 $CURRENT_DIR/livello_4/archivio/lampone
-touch -t 210005230301 $CURRENT_DIR/livello_4/archivio/nave
-touch -t 210005230502 $CURRENT_DIR/livello_4/archivio/Fester
-touch -t 210005230605 $CURRENT_DIR/livello_4/archivio/Jolly_Roger
+touch -t 210005230404 $CURRENT_DIR/livello_4/archivio/$OGGETTO_1
+touch -t 210005230202 $CURRENT_DIR/livello_4/archivio/$OGGETTO_2
+touch -t 210005230103 $CURRENT_DIR/livello_4/archivio/$OGGETTO_3
+touch -t 210005230301 $CURRENT_DIR/livello_4/archivio/$OGGETTO_4
+touch -t 210005230502 $CURRENT_DIR/livello_4/archivio/$OGGETTO_5
+touch -t 210005230605 $CURRENT_DIR/livello_4/archivio/$OGGETTO_6
 }
 
 sbagliato()

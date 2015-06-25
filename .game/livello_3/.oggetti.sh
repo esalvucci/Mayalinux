@@ -10,9 +10,10 @@ if [ $GAME == "matrix" ] ; then
 fi
 
 if [ $GAME == "monkey_island" ] ; then
-	OGGETTO_1="mentine_per_l_alito"
-	OGGETTO_2="boccale_di_grog"
-	OGGETTO_3="idolo_del_governatore"
-	OGGETTO_4="vanga"
-	OGGETTO_5="pollo_di_gomma"
+	OGGETTO_1="backup"
+	OGGETTO_2="governatore"
+	OGGETTO_3="lampone"
+	OGGETTO_4="nave"
+	OGGETTO_5="Fester"
+	OGGETTO_5="Jolly_Roger"
 fi
