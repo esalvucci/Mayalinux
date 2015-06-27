@@ -1,13 +1,9 @@
 #!/bin/bash
 
 # permetto di eseguire tutti i file, compresi quelli nelle cartelle e sottocartelle
-chmod -Rf +x * 
-
-AMBIENTAZIONI=(matrix monkey_island)
 
 # Le versioni di Mayalinux sono 2: Matrix o Monkey Island, scegliamo a quale vogliamo giocare
 echo "Quale avventura vuoi iniziare?"
-echo $AMBIENTAZIONI
 echo
 echo " 1 - Matrix"
 echo " 2 - Monkey Island"
@@ -43,10 +39,8 @@ else
  		export PS1='\[\e[1;35m\]'$GAME_TITLE' $\[\e[m\] \[\e[0;37m\] '
 	fi
 
-	# viene rimossa la cartella monkey_island (e poi ricreata) in modo che le modifiche ai file, fatte durante una partita, vengano eliminate prima della partita sucessiva                         
-	if [ -d $GAME ] ; then
-		rm -rf $GAME                                                                                                                                                                                    
-fi
+	# viene rimossa la cartella monkey_island/matrix (e poi ricreata) in modo che le modifiche ai file, fatte durante una partita, vengano eliminate prima della partita sucessiva                         
+	rm -r !(README|start.sh|.git|.game) 2&> /dev/null
 
 	cp -ar .game $GAME
 	cd $GAME

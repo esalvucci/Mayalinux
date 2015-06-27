@@ -4,6 +4,22 @@
 ok()
 {
 cat ../.settings/$GAME/testi_livello_3/ok 
+
+cp ../.settings/$GAME/testi_livello_4/leggimi.txt ../livello_4/leggimi.txt
+
+echo "|                                                                           |" >> ../livello_4/leggimi.txt
+echo "|               Sopri il codice criptato cercando nell'archivio             |" >> ../livello_4/leggimi.txt
+echo "|                  con il comando 'ls -l archivio'                          |" >> ../livello_4/leggimi.txt
+echo "|                  fai attenzione ad ore e minuti!                          |" >> ../livello_4/leggimi.txt
+echo "|                                                                           |" >> ../livello_4/leggimi.txt
+echo "|                                                                           |" >> ../livello_4/leggimi.txt
+echo "|                 Quando avrai scoperto il codice                           |" >> ../livello_4/leggimi.txt
+echo "       rinomina il file banana con il comando 'mv $OGGETTO_MV <codice>'    " >> ../livello_4/leggimi.txt
+echo "|                  ed esegui 'source azione.sh'                             |" >> ../livello_4/leggimi.txt
+echo "|                                                                           |" >> ../livello_4/leggimi.txt
+echo "|                                                                           |" >> ../livello_4/leggimi.txt
+echo "|___________________________________________________________________________|" >> ../livello_4/leggimi.txt
+
 rmdir uomo
 
 # Qui bisogna mettere uno script che esegua le prossime 22 righe in base a $GAME
@@ -20,12 +36,6 @@ fi
 source .oggetti.sh
 cd ../livello_4
 
-touch -t 210005230404 $CURRENT_DIR/livello_4/archivio/$OGGETTO_1
-touch -t 210005230202 $CURRENT_DIR/livello_4/archivio/$OGGETTO_2
-touch -t 210005230103 $CURRENT_DIR/livello_4/archivio/$OGGETTO_3
-touch -t 210005230301 $CURRENT_DIR/livello_4/archivio/$OGGETTO_4
-touch -t 210005230502 $CURRENT_DIR/livello_4/archivio/$OGGETTO_5
-touch -t 210005230605 $CURRENT_DIR/livello_4/archivio/$OGGETTO_6
 }
 
 sbagliato()
