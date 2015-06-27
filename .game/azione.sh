@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# per la versione 2013 è stato ripristinato il trucco che porta alla fine del labirinto
+# Dalla versione 2013 è stato ripristinato il trucco che porta alla fine del labirinto
 # digitare l'alias "lab", la password richiesta è "lab"
 
 export CURRENT_DIR=`pwd`
@@ -26,19 +26,12 @@ cat .settings/$GAME/leggimi.txt
 echo Premi Invio per entrare nella $(cat .settings/$GAME/nome_labirinto.txt)
 read
 
-# chroot per evitare che i ragazzi con "cd .." escano dal gioco
-#sudo mount -o bind /dev /tmp/dev
-#sudo mount -t proc none /tmp/proc
-
-
-# se esiste un file .auto.sh nella directory lo esegue
-#trap 'test -f ./.nocd && cd -' DEBUG
-
 LIVELLO_STRINGA='livello_'
 NUMERO_LIVELLO='0'
 
 LIVELLO=$LIVELLO_STRINGA$NUMERO_LIVELLO
 
+# se esiste un file .auto.sh nella directory lo esegue
 export PROMPT_COMMAND="test -f ./.auto.sh && source ./.auto.sh"
 cd $CURRENT_DIR/livello_0
 
