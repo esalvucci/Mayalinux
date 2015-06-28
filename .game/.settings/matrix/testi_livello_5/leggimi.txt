@@ -1,0 +1,18 @@
+______________________________________________________________________________
+| 									      |
+|        Dopo tanta fatica sei riuscito a liberare l'equipaggio della         |
+|     Vigilant dalla sua cella, ora dovete pero' scappare dal quartier        |
+|      generale, pero' prima di iniziare la fuga e' di vitale importanza      |
+|       non aver microspie addosso altrimenti individueranno il nostro        |
+|      punto d'accesso a Matrix ed invieranno delle seppie a distruggere      |
+|                             la nostra nave.                                 |
+|                                                                             |
+|            Per poter rimuovere tutte le possibili microspie                 |
+|            		 che potremmo avere addosso                           |
+|                          l'azione da eseguire e':                           |
+|                                                                             |
+|                          	rm <nome file >                               |
+|                                                                             |
+|        Non è tutto una microspia però, ne deve rimanere solo uno!           |
+|		   Attento a scegliere il file giusto!!!                      |
+|_____________________________________________________________________________|

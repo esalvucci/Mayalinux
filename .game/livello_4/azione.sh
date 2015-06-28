@@ -10,8 +10,10 @@ if [ -e $RISPOSTA ] ; then
 	echo
 	
 	cat ../.settings/$GAME/testi_livello_4/ok	
-#	cd ../livello_5
-
+	
+	cp ../.settings/$GAME/testi_livello_5/leggimi.txt ../livello_5/
+	cd ../livello_5
+	source .oggetti.sh
 else
 	echo
 	echo Risposta errata! Riprova...

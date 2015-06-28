@@ -1,0 +1,20 @@
+_________________________________________________________________________________
+|                                                                               |
+|                                                                               |
+|                                                                               |
+|          Dopo tanta fatica sei riuscito ad arrivare a Monkey Island           |
+|              ora devi liberare il governatore al piu' presto!                 |
+|                                                                               |
+|          Davanti a te si presentano dei pirati, dei pirati fantasma!          |
+|              Fai attenzione, possono essere molto pericolosi                  |
+|                                                                               |
+|           Per purificarli e farli tornare umani utilizza il comando           |
+|                             rm <nome file>                                    |
+|                                                                               |
+|                       Devi purificarli tutti tranne uno,                      |
+|             quello che piu' probabilmente ha conosciuto il governatore        |
+|                  Sara' lui ad indicarti dove si trova Elaine!                 |
+|                                                                               |
+|                                                                               |
+|                                                                               |
+|_______________________________________________________________________________|
