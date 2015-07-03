@@ -1,3 +1,0 @@
-#!/bin/bash
-
-mkfs.ext4 -F $1 >& /dev/null
