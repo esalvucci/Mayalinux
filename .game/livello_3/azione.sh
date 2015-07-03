@@ -33,8 +33,8 @@ if [ $GAME == "matrix" ] ; then
 	RISPOSTA='vigilant'
 fi
 
-source .oggetti.sh
 mkdir -p ../livello_4/archivio
+source .oggetti.sh
 cd ../livello_4
 
 }
