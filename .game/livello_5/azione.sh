@@ -7,11 +7,14 @@ if [ ! -e ./$FILE_4 ] || [ -e ./$FILE_1 ] || [ -e ./$FILE_2 ] || [ -e ./$FILE_3 
         echo
 	source .oggetti.sh  
 else
-        echo ...
+        
+	echo ...
         echo
         sleep 3
         clear
         echo 
         cat ../.settings/$GAME/testi_livello_5/ok
 	sleep 3
+        cat ../.settings/$GAME/testi_livello_5/uscita.txt
+	
 fi

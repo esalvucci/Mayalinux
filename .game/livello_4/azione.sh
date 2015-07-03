@@ -12,6 +12,7 @@ if [ -e $RISPOSTA ] ; then
 	cat ../.settings/$GAME/testi_livello_4/ok	
 	
 	cp ../.settings/$GAME/testi_livello_5/leggimi.txt ../livello_5/
+	alias grep='grep -rnIi --color'
 	cd ../livello_5
 	source .oggetti.sh
 else
