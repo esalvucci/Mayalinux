@@ -34,6 +34,7 @@ if [ $GAME == "matrix" ] ; then
 fi
 
 source .oggetti.sh
+mkdir -p ../livello_4/archivio
 cd ../livello_4
 
 }
