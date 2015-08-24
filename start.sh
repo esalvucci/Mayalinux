@@ -12,7 +12,7 @@ echo Digita 1 o 2 e poi Invio
 echo
 read risposta
 
-if [[ $risposta < 1 || $risposta > 2 ]] ; then 
+if [ $risposta -le 0 -o $risposta -ge 3 ] ; then
         echo "digita 1 o 2" 2>/dev/null
 else
  
