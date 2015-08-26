@@ -1,6 +1,6 @@
 #!/bin/bash
 
-clear
+#clear
 cat $CURRENT_DIR/.settings/$GAME/labir.txt
 
 cd $CURRENT_DIR/livello_1
