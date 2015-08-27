@@ -21,7 +21,7 @@ else
 
 echo 
 sleep 1
-cat ../.settings/$GAME/testi_livello_2/generale.txt
+more ../.settings/$GAME/testi_livello_2/generale.txt
 
 cd ../livello_2
 source azione.sh

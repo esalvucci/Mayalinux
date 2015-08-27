@@ -6,7 +6,7 @@
 vabene()
 {
 cd ../livello_3
-cat ../.settings/$GAME/testi_livello_2/$OGGETTO_5
+more ../.settings/$GAME/testi_livello_2/$OGGETTO_5
 cp ../.settings/$GAME/testi_livello_2/indovinello ../livello_3/leggimi.txt
 echo "|         Qual e' quell'animale che da giovane ha quattro zampe,           |" >> ../livello_3/leggimi.txt
 echo "|                     da adulto due e da vecchio tre?                      |" >> ../livello_3/leggimi.txt                                                                          
@@ -32,25 +32,25 @@ mkdir ../livello_1/equipaggiamento
 
 oggetto_1()
 {
-	cat ../.settings/$GAME/testi_livello_2/$OGGETTO_1
+	more ../.settings/$GAME/testi_livello_2/$OGGETTO_1
 	del
 }
 
 oggetto_2()
 {
-	cat ../.settings/$GAME/testi_livello_2/$OGGETTO_2
+	more ../.settings/$GAME/testi_livello_2/$OGGETTO_2
 	del
 }
 
 oggetto_3()
 {
-	cat ../.settings/$GAME/testi_livello_2/$OGGETTO_3
+	more ../.settings/$GAME/testi_livello_2/$OGGETTO_3
 	del
 }
 
 oggetto_4()
 {
-	cat ../.settings/$GAME/testi_livello_2/$OGGETTO_4
+	more ../.settings/$GAME/testi_livello_2/$OGGETTO_4
 	del
 }
 

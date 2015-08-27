@@ -9,7 +9,7 @@ if [ -e $RISPOSTA ] ; then
 	echo Hai trovato la giusta decodifica!
 	echo
 	
-	cat ../.settings/$GAME/testi_livello_4/ok	
+	more ../.settings/$GAME/testi_livello_4/ok	
 	
 	cp ../.settings/$GAME/testi_livello_5/leggimi.txt ../livello_5/
 	alias grep='grep -rnIi --color'
