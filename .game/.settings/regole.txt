@@ -1,4 +1,4 @@
- ______________________________________________________________________________    
+ ______________________________________________________________________________
 |                                                                              |
 |                         Un po' di regole del gioco...                        |
 |                                                                              |
@@ -17,6 +17,6 @@
 |      segui le istruzioni prima di eseguire "source azione.sh"                |
 |                                                                              |
 |                                                                              |
-|    -- per uscire dal gioco usa il comando "exit"                             | 
+|    -- per uscire dal gioco usa il comando "exit"                             |
 |                                                                              |
 |______________________________________________________________________________|

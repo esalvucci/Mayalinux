@@ -18,14 +18,14 @@ ______________________________________________________________________________
 |           Dovrai eliminare tutti i personaggi elencati tranne uno.          |
 |               Il personaggio da eliminare è quello di cui, nel file         |
 |           corrispondente, compare il nome completo; questo lo scoprirai     |
-|                         tramite il comando "grep"                           |                                                                                                             
+|                         tramite il comando "grep"                           |
 |               In alternativa puoi leggere il file di testo con cat          |
 |                       (come hai fatto per i file leggimi.txt)               |
-|                           Quindi per esempio                                |  
+|                           Quindi per esempio                                |
 |                                                                             |
 |                       grep <personaggio> <personaggio>                      |
 |                                                                             |
-|               ho un output, quindi il nome compare all'interno              |  
+|               ho un output, quindi il nome compare all'interno              |
 |               del file di testo <personaggio>?                              |                                                                                                             |               Si -> cancello tutti i file tranne lui                        |
 |               No -> Non è il personaggio da cancellare                      |
 |                                                                             |

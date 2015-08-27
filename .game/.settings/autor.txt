@@ -8,8 +8,8 @@ ____________________________________________________________________________
 |                 "Esploratori della rete, Bit Prepared!"                   |
 |                                                                           |
 |                     versione 1.1 Matrix  - Luglio  2011                   |
-|                  versione 2.1 Monkey Island - Luglio 2012                 |   
-|                  versione 2.2 Monkey Island - Agosto 2013                 |   
+|                  versione 2.1 Monkey Island - Luglio 2012                 |
+|                  versione 2.2 Monkey Island - Agosto 2013                 |
 |                  versione 3.0 Monkey Island + Matrix - Giugno 2015        |
 |                                                                           |
 |                                                                           |

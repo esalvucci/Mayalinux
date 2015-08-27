@@ -40,9 +40,16 @@ else
 	fi
 
 	# viene rimossa la cartella monkey_island/matrix (e poi ricreata) in modo che le modifiche ai file, fatte durante una partita, vengano eliminate prima della partita sucessiva                         
-	rm -r !$(Licence|README|start.sh|.git|.game) 2&> /dev/null
+	#rm -r !$(Licence|README|start.sh|.git|.game) 2&> /dev/null
+	for gamesupported in matrix monkey_island ; do
+		if [[ -d "$gamesupported" ]] ; then
+			rm -rf $gamesupported/
+		fi
+	done
 
+	echo "Copio la directory di gioco $GAME, un attimo di pazienza"
 	cp -ar .game $GAME
+	clear
 	cd $GAME
 	source azione.sh
 
