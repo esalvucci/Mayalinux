@@ -7,22 +7,22 @@ export CURRENT_DIR=`pwd`
 alias lab="cd '$CURRENT_DIR'/.settings && source trucco_labirinto.sh"
 
 # inizia il lancio del gioco, con titolo, autori e spiegazione
-cat .settings/$GAME/titolo.txt
+more .settings/$GAME/titolo.txt
 echo Premi Invio...
 read
 
 clear
-cat .settings/autor.txt
+more .settings/autor.txt
 echo Premi Invio...
 read
 
 clear
-cat .settings/regole.txt
+more .settings/regole.txt
 echo Premi Invio...
 read
 
 clear
-cat .settings/$GAME/leggimi.txt
+more .settings/$GAME/leggimi.txt
 echo Premi Invio per entrare nella $(cat .settings/$GAME/nome_labirinto.txt)
 read
 
