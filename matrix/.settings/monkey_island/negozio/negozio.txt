@@ -1,8 +1,0 @@
-________________________________________________________________________
-|                                                                       |
-|                                                                       |
-|       Una nave costa molto, per questo dovrai chiedere una nota       |
-|               di credito al negoziante del villaggio,                 |
-|                questo pero' rifiutera' il prestito.                   |
-|       ...se solo riuscissi ad aprire la cassaforte del negoziante...  |
-
