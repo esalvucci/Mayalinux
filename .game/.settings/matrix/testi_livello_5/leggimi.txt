@@ -1,27 +1,28 @@
 ______________________________________________________________________________
 | 									      |
 |        Dopo tanta fatica sei riuscito a liberare l'equipaggio della         |
-|     Vigilant dalla sua cella, ora dovete pero' scappare dal quartier        |
-|      generale, pero' prima di iniziare la fuga e' di vitale importanza      |
-|       non aver microspie addosso altrimenti individueranno il nostro        |
+|     Vigilant dalla sua cella.                                               |
+|      Ora dobbiamo scappare dal quartier generale, prima di                  |
+	iniziare la fuga e' di vitale importanza non aver microspie           |
+|            addosso altrimenti individueranno il nostro                      |
 |      punto d'accesso a Matrix ed invieranno delle seppie a distruggere      |
 |                             la nostra nave.                                 |
 |                                                                             |
-|            Per poter rimuovere tutte le possibili microspie                 |
+|                  Per poter rimuovere tutte le microspie                     |
 |            		 che potremmo avere addosso                           |
 |                          l'azione da eseguire e':                           |
 |                                                                             |
 |                          	rm <nome file >                               |
 |                                                                             |
-|        Non è tutto una microspia però, ne deve rimanere solo uno!           |
+|    Non tutti i file sono una microspia, ne deve rimanere solo uno!          |
 |		   Attento a scegliere il file giusto!!!                      |
 |           Dovrai eliminare tutti i personaggi elencati tranne uno.          |
-|               Il personaggio da eliminare è quello di cui, nel file         |
-|           corrispondente, compare il nome completo; questo lo scoprirai     |
-|                         tramite il comando "grep"                           |
-|               In alternativa puoi leggere il file di testo con cat          |
-|                       (come hai fatto per i file leggimi.txt)               |
-|                           Quindi per esempio                                |
+|                                                                             |
+| Il personaggio da eliminare è quello il cui nome completo compare nel file  |
+|                        corrispondente da scoprire                           |
+|                        tramite il comando "grep"                            |                                                                                                             
+|                                                                             |
+|                           Quindi per esempio                                |  
 |                                                                             |
 |                       grep <personaggio> <personaggio>                      |
 |                                                                             |

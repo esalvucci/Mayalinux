@@ -1,0 +1,31 @@
+____________________________________________________________________________ 
+|                Bene sei entrato nel quartier generale...                 |
+|                                                                          |
+|            E' una specie di fortino degli Agenti, all'interno            |
+| ci sono i membri della Vigilant imprigionati con l'intento di estorcere  |
+|              loro le chiavi d'accesso per la citta' di Zion.             |
+|        Appena muovi qualche passo all'interno del cortile del forte      |
+|             degli Agenti ti notano ed iniziano ad avvicinarsi.           |
+|__________________________________________________________________________|                                                                          
+
+
+
+	Girovagando tra le stanze del quartier generale ti imbatti
+          un una strana persona, non ha l'aspetto di un Agente
+
+___________________________________________________________________________
+|                                                                          |
+|          Salve, sono il mastro di chiavi, se sei giunto qui devi         |
+|          essere disperato, io posso aiutarti, ho una chiave per          |
+|         ogni porta ma se vuoi che te la dia prima devi rispondere        |
+|                              a questo quesito:                           |
+|         Qual e' quell'animale che da giovane ha quattro zampe,           |
+|                     da adulto due e da vecchio tre?                      |
+|                                                                          |
+|                                                                          |
+|                                                                          |
+|      (per rispondere crea una cartella, con 'mkdir <risposta>', che      |
+|                        abbia per nome la risposta                        |
+|                       ed esegui 'source azione.sh')                      |
+|                                                                          |
+|__________________________________________________________________________|

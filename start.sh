@@ -48,6 +48,7 @@ else
 	done
 
 	echo "Copio la directory di gioco $GAME, un attimo di pazienza"
+	
 	cp -ar .game $GAME
 	clear
 	cd $GAME
