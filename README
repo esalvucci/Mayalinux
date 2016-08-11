@@ -10,6 +10,7 @@ ____________________________________________________________________________
 |                     versione 1.1 Matrix  - Luglio  2011                   |
 |                  versione 2.1 Monkey Island - Luglio 2012                 |   
 |                  versione 3.0 Monkey Island + Matrix - Giugno 2015        |
+|                  versione 3.1 Monkey Island + Matrix - Agosto 2016        |
 |                                                                           |
 |                                                                           |
 |                	 Per informazioni sul campo:                        |
@@ -22,6 +23,16 @@ ____________________________________________________________________________
 
 			  Le regole del gioco
 
+Per iniziare a giocare lanciare lo script start.sh digitando il comando
+$ source start.sh
+
+Ad ogni livello sarà presente un file leggimi.txt con la spiegazione del livello stesso.
+Una volta completato ogni singolo livello digitare
+$ source azione.sh
+per passare al livello successivo
+
+
+			  I comandi principali
 $ cat file.txt 				
 # legge il contenuto del file txt
 
@@ -39,8 +50,3 @@ $ mv file1 file2
 
 $ mkdir cartella
 # crea la directory cartella
-
-$ mkfs.ext4 filesystem
-# formatta l'fs chiamato filesystem
-
-
