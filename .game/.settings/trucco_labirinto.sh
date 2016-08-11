@@ -2,6 +2,8 @@
 
 #Questo script sostituisce l'alias che permette di arrivare alla fine del labirinto
 
+# Ho rimosso l'alias da $GAME/azione.sh perchè il trucco dipende da zenity, non sempre presente
+
 ENTRY=`zenity --title="Labirinto" --password`
 
 case $? in

@@ -1,10 +1,6 @@
 #!/bin/bash
 
-# Dalla versione 2013 è stato ripristinato il trucco che porta alla fine del labirinto
-# digitare l'alias "lab", la password richiesta è "lab"
-
 export CURRENT_DIR=`pwd`
-alias lab="cd '$CURRENT_DIR'/.settings && source trucco_labirinto.sh"
 
 # inizia il lancio del gioco, con titolo, autori e spiegazione
 more .settings/$GAME/titolo.txt

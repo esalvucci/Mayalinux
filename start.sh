@@ -1,7 +1,5 @@
 #!/bin/bash
 
-# permetto di eseguire tutti i file, compresi quelli nelle cartelle e sottocartelle
-
 # Le versioni di Mayalinux sono 2: Matrix o Monkey Island, scegliamo a quale vogliamo giocare
 echo "Quale avventura vuoi iniziare?"
 echo
