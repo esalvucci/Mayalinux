@@ -12,7 +12,7 @@ echo Digita 1 o 2 e poi Invio
 echo
 read risposta
 
-if [ $risposta -le 0 -o $risposta -ge 3 ] ; then
+if [[ ! $risposta || $risposta = *[^1-2]* ]]; then
         echo "digita 1 o 2" 2>/dev/null
 else
  
