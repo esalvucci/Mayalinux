@@ -13,17 +13,17 @@ read risposta
 if [[ ! $risposta || $risposta = *[^1-2]* ]]; then
         echo "digita 1 o 2" 2>/dev/null
 else
- 
-        if [ $risposta -eq 1 ] ; then
+	
+	if [ $risposta -eq 1 ] ; then
                 GAME="matrix"
         elif [ $risposta -eq 2 ] ; then
                 GAME="monkey_island"
         fi
 
 	# Ora che so il gioco scelto posso utilizzare $GAME
-
+	
 	# Il path HOME punta a "labirinto" in modo che i ragazzi non tornino nella home con il comando cd
-	export HOME=$PWD/$GAME'/livello_0/'
+	export HOME=$PWD/$GAME'/livello_0'
 
 	# GAME_TITLE --> $GAME senza "_" e con l' iniziale maiuscola
 	GAME_TITLE=$(echo "$GAME" | sed -r 's/(^)([a-z])/\U\2/g' | sed -r 's/(_)([a-z])/ \2/g')
@@ -50,6 +50,28 @@ else
 	cp -ar .game $GAME
 	clear
 	cd $GAME
+	
+
+	# Imposto i comandi utilizzabili durante il gioco
+
+	rm $HOME/../.settings/commands/*
+	ln -s /bin/mv $HOME/../.settings/commands/mv
+	ln -s /bin/cd $HOME/../.settings/commands/cd
+	ln -s /bin/ls $HOME/../.settings/commands/ls
+ 	ln -s /bin/cp $HOME/../.settings/commands/cp
+	ln -s /bin/grep $HOME/../.settings/commands/grep
+	ln -s /bin/cat $HOME/../.settings/commands/cat
+        ln -s /bin/source $HOME/../.settings/commands/source
+	ln -s /bin/mkdir $HOME/../.settings/commands/mkdir
+	ln -s /bin/sed $HOME/../.settings/commands/sed
+	ln -s /bin/more $HOME/../.settings/commands/more
+	ln -s /usr/bin/clear $HOME/../.settings/commands/clear
+	ln -s /usr/bin/touch $HOME/../.settings/commands/touch
+	ln -s /usr/bin/test $HOME/../.settings/commands/test
+
+	export PATH=$HOME/../.settings/commands
+	
+
 	source azione.sh
 
 fi
