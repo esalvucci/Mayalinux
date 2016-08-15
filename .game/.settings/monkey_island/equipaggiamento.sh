@@ -23,19 +23,7 @@ else
 # contro: rende il gioco molto più lungo, e non c'è tempo, siamo in ritardo!!!
 #
 
-echo 
-echo Dopo esserti equipaggiato con l\'oggetto che pensi ti sia utile sei pronto per allenarti contro gli altri pirati...
-echo
-sleep 2
-echo
-echo incontri il primo pirata, e ti sconfigge a suon di insulti
-echo
-echo
-sleep 2
-echo incontri il secondo pirata, e inizi a rispondere a tono ai suoi insulti, perdi ma con onore!
-echo
-echo
-sleep 1
+cat  ../.settings/$GAME/testi_livello_2/generale.txt
 
 #cp -r $CURRENT_DIR/.$GAME/livello_2 $CURRENT_DIR/
 cd ../livello_2

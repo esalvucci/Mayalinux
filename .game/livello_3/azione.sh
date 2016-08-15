@@ -24,19 +24,23 @@ echo "|               Sopri il codice cercando nell'archivio                    
 echo "|                  con il comando 'ls -l archivio',                         |" >> ../livello_4/leggimi.txt
 echo "|                                                                           |" >> ../livello_4/leggimi.txt
 echo "|	                   Esempio: $ ls -l archivio                              |" >> ../livello_4/leggimi.txt
-echo "|  Permessi Hard Link Utente gruppo Dimensione  Data   Ora    Nome         |" >> ../livello_4/leggimi.txt
-echo "|  -rw-r--r--    1    scout  scout    2403     ago 27 20:10 leggimi.txt    |" >> ../livello_4/leggimi.txt
+echo "|Permessi  H.Link Utente gruppo Dim. Data  +++Ore e minuti +++  Nome        |" >> ../livello_4/leggimi.txt
+echo "| -rw-r--r--    1  scout  scout 2403 ago 27     20:10        leggimi.txt    |" >> ../livello_4/leggimi.txt
 echo "|                                                                           |" >> ../livello_4/leggimi.txt
 echo "|      per decriptarlo è importante fare attenzione all'ordine              |" >> ../livello_4/leggimi.txt
 echo "|              in cui sono disposte le ore, i minuti e i nomi               |" >> ../livello_4/leggimi.txt
-echo "|                 Quando avrai scoperto il codice                           |" >> ../livello_4/leggimi.txt
-echo "  rinomina il file $PAROLA con il comando 'mv cella codice_trovato'          " >> ../livello_4/leggimi.txt
-echo "|                  ed esegui 'source azione.sh'                             |" >> ../livello_4/leggimi.txt
+echo "|                                                                           |" >> ../livello_4/leggimi.txt
+echo "|                    Quando avrai scoperto il codice                        |" >> ../livello_4/leggimi.txt
+echo "|                rinomina il file $PAROLA con il comando                    |" >> ../livello_4/leggimi.txt
+echo "|                       mv $PAROLA codice_trovato                           |" >> ../livello_4/leggimi.txt
+echo "|                                                                           |" >> ../livello_4/leggimi.txt
+echo "|                  e passa al livello sucessivo con il comando              |" >> ../livello_4/leggimi.txt
+echo "|                              source azione.sh                             |" >> ../livello_4/leggimi.txt
 echo "|                                                                           |" >> ../livello_4/leggimi.txt
 echo "|                                                                           |" >> ../livello_4/leggimi.txt
 echo "|___________________________________________________________________________|" >> ../livello_4/leggimi.txt
 
-rmdir uomo
+rm -r uomo
 
 
 mkdir -p ../livello_4/archivio

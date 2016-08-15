@@ -54,8 +54,15 @@ else
 
 	# Imposto i comandi utilizzabili durante il gioco
 
+	if [ "$(ls -A $HOME/../.settings/commands)" ]; then
+	
 	rm $HOME/../.settings/commands/*
+
+	fi	
+	
 	ln -s /bin/mv $HOME/../.settings/commands/mv
+	ln -s /bin/rm $HOME/../.settings/commands/rm
+	ln -s /bin/date $HOME/../.settings/commands/date
 	ln -s /bin/cd $HOME/../.settings/commands/cd
 	ln -s /bin/ls $HOME/../.settings/commands/ls
  	ln -s /bin/cp $HOME/../.settings/commands/cp
@@ -68,6 +75,7 @@ else
 	ln -s /usr/bin/clear $HOME/../.settings/commands/clear
 	ln -s /usr/bin/touch $HOME/../.settings/commands/touch
 	ln -s /usr/bin/test $HOME/../.settings/commands/test
+	ln -s /bin/sleep $HOME/../.settings/commands/sleep
 
 	export PATH=$HOME/../.settings/commands
 	

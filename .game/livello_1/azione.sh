@@ -20,7 +20,7 @@ if [ ! -e ../$LIVELLO/equipaggiamento/$OGGETTO_1 ] && [ ! -e ../$LIVELLO/equipag
 else
 
 echo 
-sleep 1
+#sleep 1
 more ../.settings/$GAME/testi_livello_2/generale.txt
 
 cd ../livello_2
