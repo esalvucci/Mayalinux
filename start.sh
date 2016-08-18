@@ -57,8 +57,12 @@ else
 	if [ "$(ls -A $HOME/../.settings/commands)" ]; then
 	
 	rm $HOME/../.settings/commands/*
-
+	
 	fi	
+		
+	
+	mkdir -p $HOME/../.settings/commands		
+
 	
 	ln -s /bin/mv $HOME/../.settings/commands/mv
 	ln -s /bin/rm $HOME/../.settings/commands/rm
