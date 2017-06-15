@@ -31,11 +31,11 @@ else
 	
 	# vengono definiti i colori del terminale in base all'ambientazione del gioco
 	if [ $GAME == 'matrix' ] ; then
- 		export PS1='\[\e[0;32m\]'$GAME_TITLE' $\[\e[m\] \[\e[0;37m\] '
+ 		export PS1='\[\e[0;32m\]'$GAME_TITLE' $\[\e[m\] '
 	fi
 	
 	if [ $GAME == 'monkey_island' ] ; then
- 		export PS1='\[\e[1;35m\]'$GAME_TITLE' $\[\e[m\] \[\e[0;37m\] '
+ 		export PS1='\[\e[1;35m\]'$GAME_TITLE' $\[\e[m\]'
 	fi
 
 	# viene rimossa la cartella monkey_island/matrix (e poi ricreata) in modo che le modifiche ai file, fatte durante una partita, vengano eliminate prima della partita sucessiva                         
@@ -46,24 +46,16 @@ else
 		fi
 	done
 
-	echo "Copio la directory di gioco $GAME, un attimo di pazienza"
+	echo "Copio la directory di $GAME_TITLE, un attimo di pazienza"
 	
-	cp -ar .game $GAME
+	cp -aR .game $GAME
 	clear
 	cd $GAME
 	
 
 	# Imposto i comandi utilizzabili durante il gioco
-
-	if [ "$(ls -A $HOME/../.settings/commands)" ]; then
-	
-	rm $HOME/../.settings/commands/*
-	
-	fi	
-		
 	
 	mkdir -p $HOME/../.settings/commands		
-
 	
 	ln -s /bin/mv $HOME/../.settings/commands/mv
 	ln -s /bin/rm $HOME/../.settings/commands/rm
@@ -83,7 +75,6 @@ else
 	ln -s /bin/sleep $HOME/../.settings/commands/sleep
 
 	export PATH=$HOME/../.settings/commands
-	
 
 	source azione.sh
 
