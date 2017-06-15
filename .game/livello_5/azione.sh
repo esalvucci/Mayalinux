@@ -13,8 +13,8 @@ else
 #        sleep 3
         clear
 #        echo 
-        more ../.settings/$GAME/testi_livello_5/ok
+        cat ../.settings/$GAME/testi_livello_5/ok
 #	sleep 3
-        more ../.settings/$GAME/testi_livello_5/uscita.txt
+        cat ../.settings/$GAME/testi_livello_5/uscita.txt
 	
 fi

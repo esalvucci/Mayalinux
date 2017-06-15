@@ -35,7 +35,7 @@ else
 	fi
 	
 	if [ $GAME == 'monkey_island' ] ; then
- 		export PS1='\[\e[1;35m\]'$GAME_TITLE' $\[\e[m\]'
+ 		export PS1='\[\e[1;35m\]'$GAME_TITLE' $\[\e[m\] '
 	fi
 
 	# viene rimossa la cartella monkey_island/matrix (e poi ricreata) in modo che le modifiche ai file, fatte durante una partita, vengano eliminate prima della partita sucessiva                         
@@ -63,7 +63,16 @@ else
 	ln -s /bin/cd $HOME/../.settings/commands/cd
 	ln -s /bin/ls $HOME/../.settings/commands/ls
  	ln -s /bin/cp $HOME/../.settings/commands/cp
-	ln -s /bin/grep $HOME/../.settings/commands/grep
+
+	if [ -e /bin/grep ] ; then
+		ln -s /bin/grep $HOME/../.settings/commands/grep
+	fi
+
+	if [ -e /usr/bin/grep ]; then
+		# Su mac grep è in /usr/bin
+		ln -s /usr/bin/grep $HOME/../.settings/commands/grep
+	fi
+
 	ln -s /bin/cat $HOME/../.settings/commands/cat
         ln -s /bin/source $HOME/../.settings/commands/source
 	ln -s /bin/mkdir $HOME/../.settings/commands/mkdir

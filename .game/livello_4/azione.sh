@@ -9,12 +9,12 @@ if [ -e $RISPOSTA ] ; then
 	echo Hai trovato la giusta decodifica!
 	echo
 	
-	more ../.settings/$GAME/testi_livello_4/ok	
+	cat ../.settings/$GAME/testi_livello_4/ok	
 	
 	cp ../.settings/$GAME/testi_livello_5/leggimi.txt ../livello_5/
 	alias grep='grep -rnIi --color'
 	cd ../livello_5
-	unalias ls
+	alias ls='ls'
 	source .oggetti.sh
 else
 	echo
