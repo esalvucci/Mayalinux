@@ -26,8 +26,9 @@ else
 	export HOME=$PWD/$GAME'/livello_0'
 
 	# GAME_TITLE --> $GAME senza "_" e con l' iniziale maiuscola
-	GAME_TITLE=$(echo "$GAME" | sed -r 's/(^)([a-z])/\U\2/g' | sed -r 's/(_)([a-z])/ \2/g')
-
+	# GAME_TITLE=$(echo "$GAME" | sed 's/(^)([a-z])/\U\2/g' | sed -r 's/(_)([a-z])/ \2/g')
+	GAME_TITLE=$(tr '[:lower:]' '[:upper:]' <<< ${GAME:0:1})$(echo ${GAME:1} | tr '_' ' ')	
+	
 	# vengono definiti i colori del terminale in base all'ambientazione del gioco
 	if [ $GAME == 'matrix' ] ; then
  		export PS1='\[\e[0;32m\]'$GAME_TITLE' $\[\e[m\] \[\e[0;37m\] '
