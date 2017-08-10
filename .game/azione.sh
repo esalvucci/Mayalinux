@@ -3,22 +3,22 @@
 export CURRENT_DIR=`pwd`
 
 # inizia il lancio del gioco, con titolo, autori e spiegazione
-more .settings/$GAME/titolo.txt
+cat .settings/$GAME/titolo.txt
 echo Premi Invio...
 read
 
 clear
-more .settings/autor.txt
+cat .settings/autor.txt
 echo Premi Invio...
 read
 
 clear
-more .settings/regole.txt
+cat .settings/regole.txt
 echo Premi Invio...
 read
 
 clear
-more .settings/$GAME/leggimi.txt
+cat .settings/$GAME/leggimi.txt
 echo Premi Invio per entrare nella $(cat .settings/$GAME/nome_labirinto.txt)
 read
 

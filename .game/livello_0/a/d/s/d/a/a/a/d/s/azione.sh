@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #clear
-more $CURRENT_DIR/.settings/$GAME/labir.txt
+cat $CURRENT_DIR/.settings/$GAME/labir.txt
 
 cd $CURRENT_DIR/livello_1
 mkdir -p equipaggiamento
