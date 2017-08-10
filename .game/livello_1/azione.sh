@@ -2,10 +2,6 @@
 
 #
 # ci sarebbe da impostare il controllo dei livelli
-NUMERO_LIVELLO=1
-#
-
-LIVELLO=$LIVELLO_STRINGA$NUMERO_LIVELLO
 
 #se la cartella equipaggiamento è vuota evidentemente non ci si è equipaggiati!
 
@@ -24,6 +20,8 @@ echo
 cat ../.settings/$GAME/testi_livello_2/generale.txt
 
 cd ../livello_2
+NUMERO_LIVELLO=2
+LIVELLO=$LIVELLO_STRINGA$NUMERO_LIVELLO
 source azione.sh
 
 fi

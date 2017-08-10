@@ -2,7 +2,8 @@
 
 #clear
 cat $CURRENT_DIR/.settings/$GAME/labir.txt
-
+NUMERO_LIVELLO=1
+export $LIVELLO_STRINGA$NUMERO_LIVELLO
 cd $CURRENT_DIR/livello_1
 mkdir -p equipaggiamento
 

@@ -19,6 +19,11 @@ if [ $GAME == "matrix" ] ; then
 	RISPOSTA='vigilant'
 fi
 
+if [ $GAME == "star_wars" ] ; then
+	touch ../livello_4/cella
+	PAROLA='cella'
+	RISPOSTA='vigilant'
+fi
 
 echo "|               Sopri il codice cercando nell'archivio                      |" >> ../livello_4/leggimi.txt
 echo "|                  con il comando 'ls -l archivio',                         |" >> ../livello_4/leggimi.txt
