@@ -16,3 +16,11 @@ if [ $GAME == "monkey_island" ] ; then
 	OGGETTO_4="vanga"
 	OGGETTO_5="pollo_di_gomma"
 fi
+
+if [ $GAME == "star_wars" ] ; then
+	OGGETTO_1="sguscio"
+	OGGETTO_2="blaster_e11"
+	OGGETTO_3="x_wing"
+	OGGETTO_4="droide_protocollare"
+	OGGETTO_5="spada_laser"
+fi

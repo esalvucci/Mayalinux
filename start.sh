@@ -5,20 +5,27 @@ echo "Quale avventura vuoi iniziare?"
 echo
 echo " 1 - Matrix"
 echo " 2 - Monkey Island"
+echo " 3 - Star Wars"
 echo
-echo Digita 1 o 2 e poi Invio
+echo Digita 1, 2 o 3 e poi Invio
 echo
 read risposta
 
-if [[ ! $risposta || $risposta = *[^1-2]* ]]; then
-        echo "digita 1 o 2" 2>/dev/null
+if [[ ! $risposta || $risposta = *[^1-3]* ]]; then
+        echo "digita 1, 2 o 3" 2>/dev/null
 else
 	
 	if [ $risposta -eq 1 ] ; then
                 GAME="matrix"
-        elif [ $risposta -eq 2 ] ; then
+	fi
+	
+	if [ $risposta -eq 2 ] ; then
                 GAME="monkey_island"
-        fi
+	fi
+
+	if [ $risposta -eq 3 ] ; then
+        	GAME="star_wars"
+	fi
 
 	# Ora che so il gioco scelto posso utilizzare $GAME
 	
@@ -37,10 +44,14 @@ else
 	if [ $GAME == 'monkey_island' ] ; then
  		export PS1='\[\e[1;35m\]'$GAME_TITLE' $\[\e[m\] '
 	fi
+	
+	if [ $GAME == 'star_wars' ] ; then
+ 		export PS1='\[\e[1;33m\]'$GAME_TITLE' $\[\e[m\] '
+	fi
 
 	# viene rimossa la cartella monkey_island/matrix (e poi ricreata) in modo che le modifiche ai file, fatte durante una partita, vengano eliminate prima della partita sucessiva                         
 	#rm -r !$(Licence|README|start.sh|.git|.game) 2&> /dev/null
-	for gamesupported in matrix monkey_island ; do
+	for gamesupported in matrix monkey_island star_wars; do
 		if [[ -d "$gamesupported" ]] ; then
 			rm -rf $gamesupported/
 		fi
@@ -54,7 +65,6 @@ else
 	
 
 	# Imposto i comandi utilizzabili durante il gioco
-	
 	mkdir -p $HOME/../.settings/commands		
 	
 	ln -s /bin/mv $HOME/../.settings/commands/mv

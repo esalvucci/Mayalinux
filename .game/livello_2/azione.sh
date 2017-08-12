@@ -5,30 +5,36 @@
 #questa funzione viene utilizzata se l'equipaggiamento scelto è giusto, le altre, se è sbagliato; una per ogni oggetto
 vabene()
 {
-cd ../livello_3
-cat ../.settings/$GAME/testi_livello_2/$OGGETTO_5
-cp ../.settings/$GAME/testi_livello_2/indovinello ../livello_3/leggimi.txt
-echo "|         Qual e' quell'animale che da giovane ha quattro zampe,           |" >> ../livello_3/leggimi.txt
-echo "|                     da adulto due e da vecchio tre?                      |" >> ../livello_3/leggimi.txt                                                                          
-echo "|                                                                          |" >> ../livello_3/leggimi.txt
-echo "|                                                                          |" >> ../livello_3/leggimi.txt
-echo "|                                                                          |" >> ../livello_3/leggimi.txt
-echo "|            per rispondere crea una cartella che abbia per                |" >> ../livello_3/leggimi.txt
-echo "|   che  abbia per nome la risposta, la cartella si crea con il comando    |" >> ../livello_3/leggimi.txt
-echo "|                     mkdir nome_della_cartella                            |" >> ../livello_3/leggimi.txt
-echo "|                                                                          |" >> ../livello_3/leggimi.txt
-echo "|  Una volta creata la cartella passa al livello sucessivo con il comando  |" >> ../livello_3/leggimi.txt
-echo "|                         source azione.sh                                 |" >> ../livello_3/leggimi.txt 
-echo "|                                                                          |" >> ../livello_3/leggimi.txt
-echo "|__________________________________________________________________________|" >> ../livello_3/leggimi.txt
+
+	NUMERO_LIVELLO=3
+	export LIVELLO=$LIVELLO_STRINGA$NUMERO_LIVELLO
+	cd ../livello_3
+	cat ../.settings/$GAME/testi_livello_2/$OGGETTO_5
+	cp ../.settings/$GAME/testi_livello_2/indovinello ../livello_3/leggimi.txt
+	echo "|         Qual e' quell'animale che da giovane ha quattro zampe,           |" >> ../livello_3/leggimi.txt
+	echo "|                     da adulto due e da vecchio tre?                      |" >> ../livello_3/leggimi.txt                                                                          
+	echo "|                                                                          |" >> ../livello_3/leggimi.txt
+	echo "|                                                                          |" >> ../livello_3/leggimi.txt
+	echo "|                                                                          |" >> ../livello_3/leggimi.txt
+	echo "|            per rispondere crea una cartella che abbia per                |" >> ../livello_3/leggimi.txt
+	echo "|   che  abbia per nome la risposta, la cartella si crea con il comando    |" >> ../livello_3/leggimi.txt
+	echo "|                     mkdir nome_della_cartella                            |" >> ../livello_3/leggimi.txt
+	echo "|                                                                          |" >> ../livello_3/leggimi.txt
+	echo "|  Una volta creata la cartella passa al livello sucessivo con il comando  |" >> ../livello_3/leggimi.txt
+	echo "|                         source azione.sh                                 |" >> ../livello_3/leggimi.txt 
+	echo "|                                                                          |" >> ../livello_3/leggimi.txt
+	echo "|__________________________________________________________________________|" >> ../livello_3/leggimi.txt
  
 }
 
 del()
 {
-cd ../livello_1
-rm -r ../livello_1/equipaggiamento/
-mkdir ../livello_1/equipaggiamento
+	NUMERO_LIVELLO=1
+	export LIVELLO=$LIVELLO_STRINGA$NUMERO_LIVELLO
+
+	cd ../livello_1
+	rm -r ../livello_1/equipaggiamento/
+	mkdir ../livello_1/equipaggiamento
 }
 
 
@@ -89,8 +95,10 @@ equi
 else
 
 echo
+	NUMERO_LIVELLO=1
+	export LIVELLO=$LIVELLO_STRINGA$NUMERO_LIVELLO
 	echo Attenzione, non ti sei equipaggiato!
-	echo Torna a scegliere l\'oggetto più adatto...
+	echo Torna a scegliere l\'oggetto pi� adatto...
 	rm -r ../livello_1/equipaggiamento/*
 	cd ../livello_1
 
