@@ -1,28 +1,41 @@
 _________________________________________________________________________________
 |                                                                               |
 |                                                                               |
+|        L'imperatore aveva ragione: non c'era bisogno che l'Impero ti          |
+|  cercasse, saresti stato tu a raggiungere Darth Sidious e Darth Fener stessi  |
 |                                                                               |
-|          Dopo tanta fatica sei riuscito ad arrivare a Monkey Island           |
-|              ora devi liberare il governatore al piu' presto!                 |
+|   Devi affrontare tuo padre, vedi del buono in lui e solo tu puoi salvarlo    |
+|            puoi farlo tornare sulla retta via, la via della Forza             |
 |                                                                               |
-|          Davanti a te si presentano dei pirati, dei pirati fantasma!          |
-|              Fai attenzione, possono essere molto pericolosi.                 |
-| 		Sembrano i tuoi piÃ¹ fidati amici, ma non sono loro!             |
+|       Una volta raggiunto Darth Fener questo ti porta dall'Imperatore,        |
+|                 impaziente di completare la tua istruzione                    |
+|               e di portarti con sè nel Lato Oscuro della Forza                |
 |                                                                               |
-|           Per purificarli e farli tornare umani utilizza il comando           |
-|                             rm <nome file>                                    |
+|          Darth Sidious punta sulla rabbia, sull'odio e sulla paura,           |
+|            come fece con Anakin quando era ancora un ragazzo.                 |
 |                                                                               |
-|           Dovrai eliminare tutti i personaggi tranne uno.                     |
-|               Il personaggio da eliminare Ã¨ quello di cui, nel file           |
-|	    corrispondente, compare il nome completo; questo lo scoprirai       |
-|			  tramite il comando "grep"                             |
-|		In alternativa puoi leggere il file di testo con cat            |
-|			(come hai fatto per i file leggimi.txt)                 |
+|        Purtroppo sono tanti gli Jedi che sono passati al Lato Oscuro,         |
+|al servizio dell'Imperatore. Uno solo di essi però ha riconosciuto nella Forza |
+|                             la strada più giusta                              |
+|                                                                               |
+|  Visualizza alcuni tra i più potenti Sith che l'Impero abbia mai conosciuto   |
+|                         ed eliminali con il comando                           |
+|                               rm nome_del_sith                                |
+|                                                                               |
+|    Dovrai eliminarli tranne uno, l'unico che è tornato ad essere uno Jedi.    |
+|                                                                               |
+|                                                                               |
+|       Il personaggio che non è da eliminare è quello di cui, nel file         |
+|	          corrispondente, compare il nome completo;                     |
+|               Questo lo scoprirai tramite il comando "grep",                  |
+|         che effettua una ricerca all'interno di un file di testo              |
 | 			    Quindi per esempio               	                |
-| 			grep <personaggio> <personaggio>                        |
+|                                                                               |
+| 			   grep sidious sidious                                 |
+|                                                                               |
 |		ho un output, quindi il nome compare all'interno                |
-|		del file di testo <personaggio>?                                |
+|		del file di testo "sidious"?                                    |
 |		Si -> cancello tutti i file tranne lui                          |
-|		No -> Non Ã¨ il personaggio da cancellare                        |
+|		No -> Non è il personaggio da cancellare                        |
 |                                                                               |
 |_______________________________________________________________________________|

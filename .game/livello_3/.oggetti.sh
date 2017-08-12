@@ -19,3 +19,11 @@ if [ $GAME == "monkey_island" ] ; then
 	touch -t $(date +%Y%m%d)0502 $CURRENT_DIR/livello_4/archivio/Fester
 	touch -t $(date +%Y%m%d)0605 $CURRENT_DIR/livello_4/archivio/Jolly_Roge
 fi
+
+if [ $GAME == "star_wars" ] ; then
+	touch -t $(date +%Y%m%d)0404 $CURRENT_DIR/livello_4/archivio/imperatore
+	touch -t $(date +%Y%m%d)0202 $CURRENT_DIR/livello_4/archivio/jedi
+	touch -t $(date +%Y%m%d)0101 $CURRENT_DIR/livello_4/archivio/forza
+	touch -t $(date +%Y%m%d)0306 $CURRENT_DIR/livello_4/archivio/obiwankenobi
+	touch -t $(date +%Y%m%d)0502 $CURRENT_DIR/livello_4/archivio/droide
+fi

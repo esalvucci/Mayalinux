@@ -2,11 +2,8 @@ ___________________________________________________________________________
 |                                                                          |
 |                                                                          |
 |                                                                          |
-|	Una nave costa molto, per questo dovrai chiedere una nota          |
-| 	        di credito al negoziante del villaggio,                    |
-|	         questo pero' rifiutera' il prestito.                      |
-|       ...se solo riuscissi ad aprire la cassaforte del negoziante...     |
+|        Scopri il nome di colui con il quale dovrai confrontarti          |
+|              per completare il tuo addestramento da Jedi                 |
 |                                                                          |
+|  Il nome del tuo avversario è cifrato ma "la Forza un potente alleato è" | 
 |                                                                          |
-|                                                                          |
-|     Dovrai aprire la cassaforte in assenza dell'astuto venditore         |

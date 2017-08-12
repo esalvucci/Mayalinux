@@ -8,22 +8,21 @@ cat ../.settings/$GAME/testi_livello_3/ok
 cp ../.settings/$GAME/testi_livello_4/leggimi.txt ../livello_4/leggimi.txt
 
 if [ $GAME == "monkey_island" ] ; then
-	touch ../livello_4/banana
 	PAROLA='banana'
 	RISPOSTA='monkey'
 fi
 
 if [ $GAME == "matrix" ] ; then
-	touch ../livello_4/cella
 	PAROLA='cella'
 	RISPOSTA='vigilant'
 fi
 
 if [ $GAME == "star_wars" ] ; then
-	touch ../livello_4/cella
-	PAROLA='cella'
-	RISPOSTA='vigilant'
+	PAROLA='jarjar'
+	RISPOSTA='fener'
 fi
+
+touch ../livello_4/$PAROLA
 
 echo "|               Sopri il codice cercando nell'archivio                      |" >> ../livello_4/leggimi.txt
 echo "|                  con il comando 'ls -l archivio',                         |" >> ../livello_4/leggimi.txt
@@ -32,7 +31,7 @@ echo "|	                   Esempio: $ ls -l archivio                            
 echo "|Permessi  H.Link Utente gruppo Dim. Data  +++Ore e minuti +++  Nome        |" >> ../livello_4/leggimi.txt
 echo "| -rw-r--r--    1  scout  scout 2403 ago 27     20:10        leggimi.txt    |" >> ../livello_4/leggimi.txt
 echo "|                                                                           |" >> ../livello_4/leggimi.txt
-echo "|      per decriptarlo Ã¨ importante fare attenzione all'ordine              |" >> ../livello_4/leggimi.txt
+echo "|      per decriptarlo è importante fare attenzione all'ordine              |" >> ../livello_4/leggimi.txt
 echo "|              in cui sono disposte le ore, i minuti e i nomi               |" >> ../livello_4/leggimi.txt
 echo "|                                                                           |" >> ../livello_4/leggimi.txt
 echo "|                    Quando avrai scoperto il codice                        |" >> ../livello_4/leggimi.txt
@@ -51,6 +50,9 @@ rm -r uomo
 mkdir -p ../livello_4/archivio
 source .oggetti.sh
 #alias ls='function _ls() { ls -l $0| awk '{print $8 "\t" $9}'}; _ls'
+NUMERO_LIVELLO=4
+export LIVELLO=$LIVELLO_STRINGA$NUMERO_LIVELLO
+
 cd ../livello_4
 
 }
@@ -58,7 +60,7 @@ cd ../livello_4
 sbagliato()
 {
 echo
-echo Mi spiace, ma la risposta \Ã¨ errata! Puoi riprovare.
+echo Mi spiace, ma la risposta è errata! Puoi riprovare.
 echo
 }
 
