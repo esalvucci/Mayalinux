@@ -24,17 +24,20 @@ fi
 
 touch ../livello_4/$PAROLA
 
-echo "|               Sopri il codice cercando nell'archivio                      |" >> ../livello_4/leggimi.txt
-echo "|                  con il comando 'ls -l archivio',                         |" >> ../livello_4/leggimi.txt
+echo "|  Dovrai ** creare una parola ** utilizzando le lettere di altre parole.   |" >> ../livello_4/leggimi.txt
+echo "|       Le parole che ti serviranno sono i nomi dei file contenuti          |" >> ../livello_4/leggimi.txt
+echo "|                     nella cartella archivio                               |" >> ../livello_4/leggimi.txt
+echo "|        visualizza i file all'interno di archivio con il comando           |" >> ../livello_4/leggimi.txt
+echo "|                          ls -l archivio                                   |" >> ../livello_4/leggimi.txt
 echo "|                                                                           |" >> ../livello_4/leggimi.txt
-echo "|	                   Esempio: $ ls -l archivio                              |" >> ../livello_4/leggimi.txt
+echo "|                       Esempio: $ ls -l archivio                           |" >> ../livello_4/leggimi.txt
 echo "|Permessi  H.Link Utente gruppo Dim. Data  +++Ore e minuti +++  Nome        |" >> ../livello_4/leggimi.txt
 echo "| -rw-r--r--    1  scout  scout 2403 ago 27     20:10        leggimi.txt    |" >> ../livello_4/leggimi.txt
 echo "|                                                                           |" >> ../livello_4/leggimi.txt
-echo "|      per decriptarlo è importante fare attenzione all'ordine              |" >> ../livello_4/leggimi.txt
+echo "|      per decifrare la parola è importante fare attenzione all'ordine      |" >> ../livello_4/leggimi.txt
 echo "|              in cui sono disposte le ore, i minuti e i nomi               |" >> ../livello_4/leggimi.txt
 echo "|                                                                           |" >> ../livello_4/leggimi.txt
-echo "|                    Quando avrai scoperto il codice                        |" >> ../livello_4/leggimi.txt
+echo "|                    Quando avrai scoperto la parola                        |" >> ../livello_4/leggimi.txt
 echo "|                rinomina il file $PAROLA con il comando                    |" >> ../livello_4/leggimi.txt
 echo "|                       mv $PAROLA codice_trovato                           |" >> ../livello_4/leggimi.txt
 echo "|                                                                           |" >> ../livello_4/leggimi.txt

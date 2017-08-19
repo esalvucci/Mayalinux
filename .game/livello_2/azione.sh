@@ -17,7 +17,7 @@ vabene()
 	echo "|                                                                          |" >> ../livello_3/leggimi.txt
 	echo "|                                                                          |" >> ../livello_3/leggimi.txt
 	echo "|            per rispondere crea una cartella che abbia per                |" >> ../livello_3/leggimi.txt
-	echo "|   che  abbia per nome la risposta, la cartella si crea con il comando    |" >> ../livello_3/leggimi.txt
+	echo "|          nome la risposta, la cartella si crea con il comando            |" >> ../livello_3/leggimi.txt
 	echo "|                     mkdir nome_della_cartella                            |" >> ../livello_3/leggimi.txt
 	echo "|                                                                          |" >> ../livello_3/leggimi.txt
 	echo "|  Una volta creata la cartella passa al livello sucessivo con il comando  |" >> ../livello_3/leggimi.txt
