@@ -27,10 +27,19 @@ else
         	GAME="star_wars"
 	fi
 
+	# viene rimossa la cartella monkey_island/matrix (e poi ricreata) in modo che le modifiche ai file, fatte durante una partita, vengano eliminate prima della partita sucessiva                         
+	#rm -r !$(Licence|README|start.sh|.git|.game) 2&> /dev/null
+	for gamesupported in matrix monkey_island star_wars; do
+		if [[ -d "~/.mayalinux/$gamesupported" ]] ; then
+			rm -rf "~/.mayalinux/$gamesupported/"
+		fi
+	done
+
 	# Ora che so il gioco scelto posso utilizzare $GAME
 	
 	# Il path HOME punta a "labirinto" in modo che i ragazzi non tornino nella home con il comando cd
-	export HOME=$PWD/$GAME'/livello_0'
+	#export HOME=$PWD/$GAME'/livello_0'
+	export HOME=~/.mayalinux/$GAME'/livello_0'
 
 	# GAME_TITLE --> $GAME senza "_" e con l' iniziale maiuscola
 	# GAME_TITLE=$(echo "$GAME" | sed 's/(^)([a-z])/\U\2/g' | sed -r 's/(_)([a-z])/ \2/g')
@@ -49,19 +58,12 @@ else
  		export PS1='\[\e[1;33m\]'$GAME_TITLE' $\[\e[m\] '
 	fi
 
-	# viene rimossa la cartella monkey_island/matrix (e poi ricreata) in modo che le modifiche ai file, fatte durante una partita, vengano eliminate prima della partita sucessiva                         
-	#rm -r !$(Licence|README|start.sh|.git|.game) 2&> /dev/null
-	for gamesupported in matrix monkey_island star_wars; do
-		if [[ -d "$gamesupported" ]] ; then
-			rm -rf $gamesupported/
-		fi
-	done
-
 	echo "Copio la directory di $GAME_TITLE, un attimo di pazienza"
 	
-	cp -aR .game $GAME
+	mkdir -p ~/.mayalinux
+	cp -aR .game ~/.mayalinux/$GAME
 	clear
-	cd $GAME
+	cd ~/.mayalinux/$GAME
 	
 
 	# Imposto i comandi utilizzabili durante il gioco
