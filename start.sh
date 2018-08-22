@@ -37,9 +37,6 @@ else
 
 	# Ora che so il gioco scelto posso utilizzare $GAME
 	
-	# Il path HOME punta a "labirinto" in modo che i ragazzi non tornino nella home con il comando cd
-	#export HOME=$PWD/$GAME'/livello_0'
-	export HOME=~/.mayalinux/$GAME'/livello_0'
 
 	# GAME_TITLE --> $GAME senza "_" e con l' iniziale maiuscola
 	# GAME_TITLE=$(echo "$GAME" | sed 's/(^)([a-z])/\U\2/g' | sed -r 's/(_)([a-z])/ \2/g')
@@ -59,44 +56,48 @@ else
 	fi
 
 	echo "Copio la directory di $GAME_TITLE, un attimo di pazienza"
-	
-	mkdir -p ~/.mayalinux
+
+	if [ -d ~/.mayalinux ] ; then
+		rm -r ~/.mayalinux
+	fi
+
+	mkdir ~/.mayalinux
 	cp -aR .game ~/.mayalinux/$GAME
 	clear
 	cd ~/.mayalinux/$GAME
 	
 
 	# Imposto i comandi utilizzabili durante il gioco
-	mkdir -p $HOME/../.settings/commands		
+	mkdir -p ~/.mayalinux/.settings/commands		
 	
-	ln -s /bin/mv $HOME/../.settings/commands/mv
-	ln -s /bin/rm $HOME/../.settings/commands/rm
-	ln -s /bin/date $HOME/../.settings/commands/date
-	ln -s /bin/cd $HOME/../.settings/commands/cd
-	ln -s /bin/ls $HOME/../.settings/commands/ls
- 	ln -s /bin/cp $HOME/../.settings/commands/cp
+	ln -s /bin/mv ~/.mayalinux/.settings/commands/mv
+	ln -s /bin/rm ~/.mayalinux/.settings/commands/rm
+	ln -s /bin/date ~/.mayalinux/.settings/commands/date
+	ln -s /bin/cd ~/.mayalinux/.settings/commands/cd
+	ln -s /bin/ls ~/.mayalinux/.settings/commands/ls
+ 	ln -s /bin/cp ~/.mayalinux/.settings/commands/cp
 
 	if [ -e /bin/grep ] ; then
-		ln -s /bin/grep $HOME/../.settings/commands/grep
+		ln -s /bin/grep ~/.mayalinux/.settings/commands/grep
 	fi
 
 	if [ -e /usr/bin/grep ]; then
 		# Su mac grep è in /usr/bin
-		ln -s /usr/bin/grep $HOME/../.settings/commands/grep
+		ln -s /usr/bin/grep ~/.mayalinux/.settings/commands/grep
 	fi
 
-	ln -s /bin/cat $HOME/../.settings/commands/cat
-        ln -s /bin/source $HOME/../.settings/commands/source
-	ln -s /bin/mkdir $HOME/../.settings/commands/mkdir
-	ln -s /bin/sed $HOME/../.settings/commands/sed
-	ln -s /bin/more $HOME/../.settings/commands/more
-	ln -s /usr/bin/clear $HOME/../.settings/commands/clear
-	ln -s /usr/bin/touch $HOME/../.settings/commands/touch
-	ln -s /usr/bin/test $HOME/../.settings/commands/test
-	ln -s /bin/sleep $HOME/../.settings/commands/sleep
+	ln -s /bin/cat ~/.mayalinux/.settings/commands/cat
+        ln -s /bin/source ~/.mayalinux/.settings/commands/source
+	ln -s /bin/mkdir ~/.mayalinux/.settings/commands/mkdir
+	ln -s /bin/sed ~/.mayalinux/.settings/commands/sed
+	ln -s /bin/more ~/.mayalinux/.settings/commands/more
+	ln -s /usr/bin/clear ~/.mayalinux/.settings/commands/clear
+	ln -s /usr/bin/touch ~/.mayalinux/.settings/commands/touch
+	ln -s /usr/bin/test ~/.mayalinux/.settings/commands/test
+	ln -s /bin/sleep ~/.mayalinux/.settings/commands/sleep
 
-	export PATH=$HOME/../.settings/commands
-
+	export PATH=~/.mayalinux/.settings/commands
+	
 	source azione.sh
 
 fi

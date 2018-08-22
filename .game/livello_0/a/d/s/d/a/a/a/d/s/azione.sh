@@ -1,10 +1,12 @@
 #!/bin/bash
 
 #clear
+export HOME=$HOME_OLD
 NUMERO_LIVELLO=1
 export LIVELLO=$LIVELLO_STRINGA$NUMERO_LIVELLO
-cat $CURRENT_DIR/.settings/$GAME/labir.txt
-cd $CURRENT_DIR/livello_1
+cat ~/.mayalinux/$GAME/.settings/$GAME/labir.txt
+
+cd ~/.mayalinux/$GAME/livello_1
 mkdir -p equipaggiamento
 
 source .oggetti.sh
