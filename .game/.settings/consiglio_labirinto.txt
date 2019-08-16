@@ -1,0 +1,2 @@
+Per evitare di perderti nel labirinto disegnati su carta (per esempio con delle frecce verso l'alto, verso il basso, verso destra o sinistra) il percorso che stai seguendo.
+In questo modo ti sara' piu' facile ritrovare la strada una volta giunto in un punto morto.

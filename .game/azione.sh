@@ -17,6 +17,12 @@ read
 
 clear
 cat ~/.mayalinux/$GAME/.settings/$GAME/leggimi.txt
+echo Premi Invio...
+read
+
+clear
+cat ~/.mayalinux/$GAME/.settings/consiglio_labirinto.txt
+echo
 echo Premi Invio per entrare nella $(cat ~/.mayalinux/$GAME/.settings/$GAME/nome_labirinto.txt)
 read
 
