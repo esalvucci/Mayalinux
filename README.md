@@ -24,27 +24,34 @@ per passare al livello successivo
 
 ### I comandi principali
 
-$ cat file.txt 				
+$ cat file.txt
+
 ```# legge il contenuto del file txt```
 
 $ source script.sh			
-# esegue lo script “script.sh”
+
+```# esegue lo script “script.sh”```
 
 $ cd cartella
-# mi sposto nella directory "cartella"
+
+```# mi sposto nella directory "cartella"```
 
 $ cp file1 cartella
-# copio il file1 dentro la directory "cartella"
+
+```# copio il file1 dentro la directory "cartella"```
 
 $ mv file1 file2
-# rinomino il file 1 in file 2
+
+```# rinomino il file 1 in file 2```
 
 $ mkdir cartella
-# crea la directory "cartella"
+
+```# crea la directory "cartella"```
 
 $ rm filedarimuovere
-# rimuove il file chiamato filedarimuovere 
+
+```# rimuove il file chiamato filedarimuovere ```
 
 $ grep parola file
-# cerca la parola "parola" nel file "file"
 
+```# cerca la parola "parola" nel file "file"```
