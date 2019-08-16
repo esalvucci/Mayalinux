@@ -26,10 +26,22 @@ echo
 echo Premi Invio per entrare nella $(cat ~/.mayalinux/$GAME/.settings/$GAME/nome_labirinto.txt)
 read
 
+
+clear
+echo Sei nella $(cat ~/.mayalinux/$GAME/.settings/$GAME/nome_labirinto.txt)
+echo Muoviti nelle direzioni destra, sinistra, avanti e indietro utilizzando rispettivamente i comandi
+echo cd d
+echo cd s
+echo cd a
+echo cd ..
+echo e per vedere da quale parte puoi andare usa il comando
+echo ls
+
 LIVELLO_STRINGA='livello_'
 NUMERO_LIVELLO='0'
 
 LIVELLO=$LIVELLO_STRINGA$NUMERO_LIVELLO
+
 
 # se esiste un file .auto.sh nella directory lo esegue
 export PROMPT_COMMAND="test -f ./.auto.sh && source ./.auto.sh"
