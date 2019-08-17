@@ -6,8 +6,8 @@
 |    --  Nel labirinto:                                                        |
 |                         ci si muove in avanti  con   "cd a"                  |
 |                         ci si muove a sinistra con   "cd s"                  |
-|                         ci si muove a destra   con   "cd d"                  |
-|                         si torna indietro con  con   "cd .."                 |
+|                         ci si muove a destra con     "cd d"                  |
+|                         si torna indietro con        "cd .."                 |
 |                                                                              |
 |        per sapere quali sono le direzioni che puoi prendere usa "ls"         |
 |                                                                              |
