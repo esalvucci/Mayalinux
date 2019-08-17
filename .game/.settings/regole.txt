@@ -12,8 +12,9 @@
 |        per sapere quali sono le direzioni che puoi prendere usa "ls"         |
 |                                                                              |
 |                                                                              |
-|    -- quando incontri dei file TXT dovrai leggerli con il comando            |
-|                              "cat nomedelfile.txt"                           |
+|    -- quando incontri dei file TXT dovrai leggerli con il comando cat        |
+|                    (per esempio, nel caso del file leggimi.txt)              |                              
+|                              "cat leggimi.txt"                               |
 |      segui le istruzioni prima di eseguire "source azione.sh"                |
 |                                                                              |
 |                                                                              |
