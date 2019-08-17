@@ -3,23 +3,23 @@ ________________________________________________________________________________
 |                                                                               |
 |       Una volta raggiunto Darth Fener questo ti porta dall'Imperatore,        |
 |                 impaziente di completare la tua istruzione                    |
-|               e di portarti con sè nel Lato Oscuro della Forza                |
+|               e di portarti con sÃ¨ nel Lato Oscuro della Forza                |
 |                                                                               |
 |          Darth Sidious punta sulla rabbia, sull'odio e sulla paura,           |
 |            come fece con Anakin quando era ancora un ragazzo.                 |
 |                                                                               |
 |        Purtroppo sono tanti gli Jedi che sono passati al Lato Oscuro,         |
-|al servizio dell'Imperatore. Uno solo di essi però ha riconosciuto nella Forza |
-|                             la strada più giusta                              |
+|al servizio dell'Imperatore. Uno solo di essi perÃ² ha riconosciuto nella Forza |
+|                             la strada piÃ¹ giusta                              |
 |                                                                               |
-|  Visualizza alcuni tra i più potenti Sith che l'Impero abbia mai conosciuto   |
+|  Visualizza alcuni tra i piÃ¹ potenti Sith che l'Impero abbia mai conosciuto   |
 |                         ed eliminali con il comando                           |
 |                               rm nome_del_sith                                |
 |                                                                               |
-|    Dovrai eliminarli tranne uno, l'unico che è tornato ad essere uno Jedi.    |
+|    Dovrai eliminarli tranne uno, l'unico che Ã¨ tornato ad essere uno Jedi.    |
 |                                                                               |
 |                                                                               |
-|       Il personaggio che non è da eliminare è quello di cui, nel file         |
+|       Il personaggio che non Ã¨ da eliminare Ã¨ quello di cui, nel file         |
 |	          corrispondente, compare il nome completo;                     |
 |               Questo lo scoprirai tramite il comando "grep",                  |
 |         che effettua una ricerca all'interno di un file di testo              |
@@ -30,6 +30,6 @@ ________________________________________________________________________________
 |		ho un output, quindi il nome compare all'interno                |
 |		del file di testo "sidious"?                                    |
 |		Si -> cancello tutti i file tranne lui                          |
-|		No -> Non è il personaggio da cancellare                        |
+|		No -> Non Ã¨ il personaggio da cancellare                        |
 |                                                                               |
 |_______________________________________________________________________________|
